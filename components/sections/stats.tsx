@@ -4,7 +4,7 @@ import { AnimatedCounter } from "@/components/animated-counter"
 import { AnimatedSection } from "@/components/animated-section"
 
 const stats = [
-  { value: 30, suffix: "+", label: "Years of Experience" },
+  { value: 20, suffix: "+", label: "Years of Experience" },
   { value: 3000, suffix: "+", label: "Events Produced" },
   { value: 50, suffix: "+", label: "Countries Reached" },
   { value: 2000, suffix: "+", label: "Brands Served" },

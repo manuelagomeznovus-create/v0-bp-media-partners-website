@@ -10,11 +10,11 @@ import { ArrowRight, X, ChevronLeft, ChevronRight, Play } from "lucide-react"
 const galleryItems = [
   {
     id: 1,
-    title: "Apple Product Launch",
-    description: "Global technology brand event featuring immersive product demonstrations and keynote presentations.",
+    title: "Corporate Gala Event",
+    description: "Elegant corporate gala with stunning lighting design and sophisticated ambiance for luxury brand.",
     type: "photo" as const,
     image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop",
-    category: "Technology",
+    category: "Corporate",
   },
   {
     id: 2,
@@ -26,7 +26,7 @@ const galleryItems = [
   },
   {
     id: 3,
-    title: "Corporate Leadership Summit",
+    title: "Executive Conference",
     description: "International business conference bringing together industry leaders and innovators.",
     type: "photo" as const,
     image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2012&auto=format&fit=crop",
@@ -42,7 +42,7 @@ const galleryItems = [
   },
   {
     id: 5,
-    title: "Cultural Festival",
+    title: "Music Festival",
     description: "Large-scale music and arts festival celebrating diverse cultural expressions.",
     type: "photo" as const,
     image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop",
@@ -55,6 +55,54 @@ const galleryItems = [
     type: "photo" as const,
     image: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=2070&auto=format&fit=crop",
     category: "Experiential",
+  },
+  {
+    id: 7,
+    title: "Award Ceremony",
+    description: "Prestigious award ceremony with red carpet and VIP guest experience.",
+    type: "photo" as const,
+    image: "https://images.unsplash.com/photo-1531058020387-3be344556be6?q=80&w=2070&auto=format&fit=crop",
+    category: "Corporate",
+  },
+  {
+    id: 8,
+    title: "Concert Production",
+    description: "Large-scale concert production with state-of-the-art sound and lighting systems.",
+    type: "video" as const,
+    image: "https://images.unsplash.com/photo-1470229722913-7c0e2dbbafd3?q=80&w=2070&auto=format&fit=crop",
+    category: "Entertainment",
+  },
+  {
+    id: 9,
+    title: "Trade Show Exhibition",
+    description: "Custom trade show booth design and experiential marketing activation.",
+    type: "photo" as const,
+    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop",
+    category: "Exhibitions",
+  },
+  {
+    id: 10,
+    title: "Private Party",
+    description: "Exclusive private celebration with custom decor and entertainment.",
+    type: "photo" as const,
+    image: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?q=80&w=2070&auto=format&fit=crop",
+    category: "Social",
+  },
+  {
+    id: 11,
+    title: "Brand Launch Event",
+    description: "High-impact brand launch featuring product reveals and media coverage.",
+    type: "photo" as const,
+    image: "https://images.unsplash.com/photo-1556761175-5973dc0f32e7?q=80&w=2032&auto=format&fit=crop",
+    category: "Brand Activation",
+  },
+  {
+    id: 12,
+    title: "Networking Reception",
+    description: "Elegant networking event connecting industry professionals and thought leaders.",
+    type: "photo" as const,
+    image: "https://images.unsplash.com/photo-1515187029135-18ee286d815b?q=80&w=2070&auto=format&fit=crop",
+    category: "Corporate",
   },
 ]
 

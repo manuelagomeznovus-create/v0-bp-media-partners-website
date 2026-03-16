@@ -17,7 +17,7 @@ export function AboutPreviewSection() {
               About the Agency
             </p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight text-balance">
-              Crafting Extraordinary Experiences Since 1994
+              Crafting Extraordinary Experiences Since 2006
             </h2>
             <div className="flex flex-col gap-4 text-muted-foreground leading-relaxed mb-8">
               <p>
@@ -27,7 +27,7 @@ export function AboutPreviewSection() {
                 We combine strategic thinking with creative excellence and flawless production execution to create brand experiences that captivate audiences and drive meaningful results.
               </p>
               <p>
-                From intimate luxury activations to large-scale corporate conferences and cultural festivals, we bring brands to life through immersive experiences that leave lasting impressions.
+                From intimate luxury activations to large-scale corporate conferences and cultural festivals, we bring brands to life through immersive experiences that leave lasting impressions. We Make it Happen!
               </p>
             </div>
             <Button

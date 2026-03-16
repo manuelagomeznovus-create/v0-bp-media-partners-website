@@ -8,11 +8,11 @@ import type { Metadata } from "next"
 
 export const metadata: Metadata = {
   title: "About Us | BP Media + Partners",
-  description: "Learn about BP Media + Partners, a Miami-based experiential marketing and event production agency with 30+ years of experience creating unforgettable brand experiences.",
+  description: "Learn about BP Media + Partners, a Miami-based experiential marketing and event production agency founded in 2006 with 20+ years of experience creating unforgettable brand experiences.",
 }
 
 const stats = [
-  { value: 30, suffix: "+", label: "Years of Experience" },
+  { value: 20, suffix: "+", label: "Years of Experience" },
   { value: 3000, suffix: "+", label: "Events Produced" },
   { value: 50, suffix: "+", label: "Countries" },
   { value: 2000, suffix: "+", label: "Brands Served" },
@@ -20,28 +20,52 @@ const stats = [
 
 const team = [
   {
-    name: "Executive Leadership",
-    role: "Creative Director",
-    bio: "With over 25 years in experiential marketing, our Creative Director leads the vision and creative strategy for all client engagements.",
+    name: "Bryan Pena",
+    role: "CEO & Founder",
+    bio: "Founder and visionary behind BP Media + Partners since 2006, Bryan leads the company with passion for creating extraordinary experiences.",
     image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop",
   },
   {
     name: "Production Excellence",
-    role: "Event Production Director",
-    bio: "Our Production Director brings decades of large-scale event experience, overseeing flawless execution of every production.",
+    role: "Project Manager",
+    bio: "Our Project Manager ensures every event detail is perfectly orchestrated, delivering exceptional experiences on time and on budget.",
+    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop",
+  },
+  {
+    name: "Creative Vision",
+    role: "Designer",
+    bio: "Our lead Designer brings creative concepts to life, crafting visual identities and experiences that captivate audiences.",
     image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop",
   },
   {
-    name: "Strategic Communications",
-    role: "PR Director",
-    bio: "Leading our public relations team, our PR Director crafts compelling narratives that amplify brand stories across media channels.",
+    name: "Technical Innovation",
+    role: "Developer",
+    bio: "Our Developer creates cutting-edge digital solutions and interactive experiences that elevate every event production.",
+    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1974&auto=format&fit=crop",
+  },
+  {
+    name: "Strategic Growth",
+    role: "Marketing Manager",
+    bio: "Leading our marketing initiatives, our Marketing Manager drives brand awareness and strategic partnerships for our clients.",
     image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop",
   },
   {
-    name: "Project Management",
-    role: "Senior Project Manager",
-    bio: "Our Senior Project Managers ensure every detail is perfectly orchestrated, delivering exceptional experiences on time and on budget.",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop",
+    name: "Business Development",
+    role: "Sales Manager",
+    bio: "Our Sales Manager builds lasting client relationships and identifies new opportunities for growth and collaboration.",
+    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1970&auto=format&fit=crop",
+  },
+  {
+    name: "Client Excellence",
+    role: "Customer Support",
+    bio: "Our dedicated Customer Support team ensures seamless communication and exceptional service throughout every project.",
+    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1970&auto=format&fit=crop",
+  },
+  {
+    name: "Operational Excellence",
+    role: "Operations Manager",
+    bio: "Our Operations Manager oversees logistics and execution, ensuring flawless delivery of every event and production.",
+    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop",
   },
 ]
 
@@ -78,7 +102,7 @@ export default function AboutPage() {
                   About BP Media + Partners
                 </p>
                 <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight text-balance">
-                  Creating Extraordinary Experiences Since 1994
+                  Creating Extraordinary Experiences Since 2006
                 </h1>
                 <p className="text-muted-foreground text-lg lg:text-xl leading-relaxed">
                   BP Media + Partners is a Miami-based experiential marketing and event production agency with international operations and a strong network of partners across the Americas.
@@ -131,24 +155,24 @@ export default function AboutPage() {
                   Our Story
                 </p>
                 <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 text-balance">
-                  Three Decades of Excellence
+                  Two Decades of Excellence
                 </h2>
               </AnimatedSection>
               
               <div className="grid gap-8 text-muted-foreground text-lg leading-relaxed">
                 <AnimatedSection delay={100}>
                   <p>
-                    Founded in Miami in 1994, BP Media + Partners began with a vision to transform the way brands connect with their audiences. What started as a boutique event production company has evolved into a full-service experiential marketing agency with operations spanning the Americas.
+                    Founded in Miami in 2006, BP Media + Partners began with a vision to transform the way brands connect with their audiences. What started as a boutique event production company has evolved into a full-service experiential marketing agency with operations spanning the Americas and international markets.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={200}>
                   <p>
-                    Over three decades, we have had the privilege of producing over 3,000 events for more than 2,000 brands and organizations worldwide. From intimate luxury activations to large-scale corporate conferences and cultural festivals, each project has reinforced our commitment to excellence and innovation.
+                    Over two decades, we have had the privilege of producing over 3,000 events for more than 2,000 brands and organizations worldwide. From intimate luxury activations to large-scale corporate conferences and cultural festivals, each project has reinforced our commitment to excellence and innovation.
                   </p>
                 </AnimatedSection>
                 <AnimatedSection delay={300}>
                   <p>
-                    Today, BP Media + Partners stands as a trusted partner for global brands seeking to create meaningful connections through experiential marketing. Our team combines strategic thinking, creative excellence, and flawless production execution to deliver experiences that captivate audiences and drive measurable results.
+                    Today, BP Media + Partners stands as a trusted partner for global brands seeking to create meaningful connections through experiential marketing. Our team combines strategic thinking, creative excellence, and flawless production execution to deliver experiences that captivate audiences and drive measurable results. We Make it Happen!
                   </p>
                 </AnimatedSection>
               </div>

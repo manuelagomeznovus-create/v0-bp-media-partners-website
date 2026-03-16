@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react"
 import Link from "next/link"
+import Image from "next/image"
 import { Menu, X } from "lucide-react"
 import { Button } from "@/components/ui/button"
 import { cn } from "@/lib/utils"
@@ -40,15 +41,15 @@ export function Navigation() {
       <div className="container mx-auto px-6 lg:px-12">
         <nav className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="flex items-center gap-3 group">
-            <div className="relative">
-              <span className="text-xl lg:text-2xl font-serif font-bold tracking-tight text-foreground">
-                BP Media
-              </span>
-              <span className="text-xl lg:text-2xl font-serif font-light tracking-tight text-accent">
-                {" "}+ Partners
-              </span>
-            </div>
+          <Link href="/" className="flex items-center group">
+            <Image
+              src="/images/logo.png"
+              alt="BP Media + Partners"
+              width={180}
+              height={60}
+              className="h-10 lg:h-12 w-auto object-contain"
+              priority
+            />
           </Link>
 
           {/* Desktop Navigation */}

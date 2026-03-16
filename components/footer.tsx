@@ -1,4 +1,5 @@
 import Link from "next/link"
+import Image from "next/image"
 import { Instagram, Linkedin, Twitter, Facebook, Mail, Phone, MapPin } from "lucide-react"
 
 const footerLinks = {
@@ -34,12 +35,13 @@ export function Footer() {
           {/* Brand Column */}
           <div className="lg:col-span-1">
             <Link href="/" className="inline-block mb-6">
-              <span className="text-xl font-serif font-bold tracking-tight text-foreground">
-                BP Media
-              </span>
-              <span className="text-xl font-serif font-light tracking-tight text-accent">
-                {" "}+ Partners
-              </span>
+              <Image
+                src="/images/logo.png"
+                alt="BP Media + Partners"
+                width={160}
+                height={54}
+                className="h-12 w-auto object-contain"
+              />
             </Link>
             <p className="text-muted-foreground text-sm leading-relaxed mb-6">
               Premium experiential marketing, event production, and public relations agency based in Miami with international operations.

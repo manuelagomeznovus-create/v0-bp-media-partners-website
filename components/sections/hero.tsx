@@ -24,7 +24,7 @@ export function HeroSection() {
         <div className="max-w-4xl mx-auto">
           {/* Tagline */}
           <p className="text-accent text-sm md:text-base font-medium uppercase tracking-[0.3em] mb-6 animate-fade-up stagger-1">
-            Miami • New York • Latin America
+            Since 2006 • Miami • Latin America • International
           </p>
 
           {/* Headline */}
@@ -35,8 +35,11 @@ export function HeroSection() {
           </h1>
 
           {/* Subheadline */}
-          <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-2xl mx-auto mb-10 animate-fade-up stagger-3 leading-relaxed text-pretty">
+          <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-2xl mx-auto mb-4 animate-fade-up stagger-3 leading-relaxed text-pretty">
             Experiential marketing, event production, and public relations for global brands.
+          </p>
+          <p className="text-accent italic font-serif text-xl md:text-2xl mb-10 animate-fade-up stagger-3">
+            We Make it Happen!
           </p>
 
           {/* CTA Buttons */}

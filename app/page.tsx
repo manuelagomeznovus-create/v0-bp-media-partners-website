@@ -6,6 +6,7 @@ import { AboutPreviewSection } from "@/components/sections/about-preview"
 import { ServicesPreviewSection } from "@/components/sections/services-preview"
 import { WorkPreviewSection } from "@/components/sections/work-preview"
 import { GalleryPreviewSection } from "@/components/sections/gallery-preview"
+import { TeamSection } from "@/components/sections/team"
 import { ApproachSection } from "@/components/sections/approach"
 import { GlobalPresenceSection } from "@/components/sections/global-presence"
 import { ClientsSection } from "@/components/sections/clients"
@@ -22,6 +23,7 @@ export default function HomePage() {
         <ServicesPreviewSection />
         <WorkPreviewSection />
         <GalleryPreviewSection />
+        <TeamSection />
         <ApproachSection />
         <GlobalPresenceSection />
         <ClientsSection />
