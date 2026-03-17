@@ -44,7 +44,7 @@ export function HeroSection() {
               size="lg"
               className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold px-10 py-7 text-base rounded-lg transition-all duration-300 hover-lift shadow-lg hover:shadow-xl"
             >
-              <Link href="/contact">Start Your Project</Link>
+              <Link href="/contact">Contact Us t</Link>
             </Button>
             <Button
               asChild
