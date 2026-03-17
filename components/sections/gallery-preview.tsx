@@ -128,22 +128,24 @@ export function GalleryPreviewSection() {
   }
 
   return (
-    <section className="py-24 lg:py-32 bg-card">
-      <div className="container mx-auto px-6 lg:px-12">
+    <section className="section-spacing bg-card relative overflow-hidden">
+      {/* Gradient Background */}
+      <div className="absolute top-0 left-1/4 w-96 h-96 bg-accent/5 rounded-full filter blur-3xl pointer-events-none" />
+      
+      <div className="container-padding mx-auto relative z-10">
         {/* Header */}
-        <AnimatedSection className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 mb-12">
+        <AnimatedSection className="flex flex-col md:flex-row md:items-end md:justify-between gap-6 md:gap-8 mb-16 lg:mb-20">
           <div>
-            <p className="text-accent text-sm font-medium uppercase tracking-[0.2em] mb-4">
+            <p className="text-accent text-xs md:text-sm font-medium uppercase tracking-[0.3em] mb-6">
               Event Gallery
             </p>
-            <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground text-balance">
+            <h2 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground text-balance leading-tight">
               Moments That Matter
             </h2>
           </div>
           <Button
             asChild
-            variant="outline"
-            className="border-foreground/20 text-foreground hover:bg-foreground/10 font-medium w-fit"
+            className="border-2 border-accent text-accent hover:bg-accent/5 font-semibold px-8 py-6 rounded-lg transition-all duration-300 hover-lift bg-transparent w-fit whitespace-nowrap"
           >
             <Link href="/gallery" className="flex items-center gap-2">
               View Full Gallery
@@ -153,7 +155,7 @@ export function GalleryPreviewSection() {
         </AnimatedSection>
 
         {/* Masonry Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4">
+        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
           {galleryItems.map((item, index) => (
             <AnimatedSection
               key={item.id}
@@ -162,7 +164,7 @@ export function GalleryPreviewSection() {
             >
               <button
                 onClick={() => openModal(item, index)}
-                className="group relative w-full h-full min-h-[200px] overflow-hidden rounded-lg block"
+                className="group relative w-full h-full min-h-[200px] overflow-hidden rounded-xl block transition-all duration-300 hover-lift"
                 style={{ aspectRatio: index === 0 || index === 5 ? "3/4" : "4/3" }}
               >
                 <Image
@@ -172,10 +174,10 @@ export function GalleryPreviewSection() {
                   className="object-cover transition-transform duration-700 group-hover:scale-110"
                 />
                 {/* Hover Overlay */}
-                <div className="absolute inset-0 bg-background/80 opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6">
+                <div className="absolute inset-0 bg-gradient-to-t from-background via-background/40 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500 flex flex-col justify-end p-6 md:p-8">
                   {item.type === "video" && (
                     <div className="absolute inset-0 flex items-center justify-center">
-                      <div className="w-16 h-16 rounded-full bg-accent flex items-center justify-center">
+                      <div className="w-16 h-16 rounded-full bg-accent/90 hover:bg-accent flex items-center justify-center transition-all duration-300">
                         <Play className="w-6 h-6 text-accent-foreground ml-1" fill="currentColor" />
                       </div>
                     </div>

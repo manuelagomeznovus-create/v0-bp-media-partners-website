@@ -6,56 +6,50 @@ import { ChevronDown } from "lucide-react"
 
 export function HeroSection() {
   return (
-    <section className="relative min-h-screen flex items-center justify-center overflow-hidden">
-      {/* Background Image with Overlay */}
-      <div className="absolute inset-0 z-0">
-        <div 
-          className="absolute inset-0 bg-cover bg-center bg-no-repeat"
-          style={{
-            backgroundImage: `url('https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop')`,
-          }}
-        />
-        <div className="absolute inset-0 bg-gradient-to-b from-background/80 via-background/60 to-background" />
-        <div className="absolute inset-0 bg-background/40" />
-      </div>
-
+    <section className="relative min-h-screen flex items-center justify-center overflow-hidden pt-20">
+      {/* Gradient Background Effect */}
+      <div className="absolute inset-0 bg-gradient-radial from-accent/8 via-background to-background pointer-events-none z-0" />
+      
       {/* Content */}
-      <div className="relative z-10 container mx-auto px-6 lg:px-12 text-center">
-        <div className="max-w-4xl mx-auto">
+      <div className="relative z-10 container-padding mx-auto max-w-5xl">
+        <div className="space-y-8 md:space-y-10 lg:space-y-12 text-center">
           {/* Tagline */}
-          <p className="text-accent text-sm md:text-base font-medium uppercase tracking-[0.3em] mb-6 animate-fade-up stagger-1">
+          <p className="text-accent text-xs md:text-sm font-medium uppercase tracking-[0.4em] animate-fade-up stagger-1">
             Since 2006 • Miami • Latin America • International
           </p>
 
-          {/* Headline */}
-          <h1 className="font-serif text-4xl sm:text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold leading-[1.1] tracking-tight text-foreground mb-6 animate-fade-up stagger-2 text-balance">
-            We Create{" "}
-            <span className="text-accent">Unforgettable</span>{" "}
-            Brand Experiences
-          </h1>
+          {/* Main Headline */}
+          <div className="space-y-4">
+            <h1 className="font-serif text-5xl sm:text-6xl md:text-7xl lg:text-8xl font-bold leading-[1.1] tracking-tight text-foreground animate-fade-up stagger-2 text-balance">
+              We Create{" "}
+              <span className="text-gradient">Unforgettable</span>{" "}
+              Brand Experiences
+            </h1>
+          </div>
 
           {/* Subheadline */}
-          <p className="text-lg md:text-xl lg:text-2xl text-muted-foreground max-w-2xl mx-auto mb-4 animate-fade-up stagger-3 leading-relaxed text-pretty">
-            Experiential marketing, event production, and public relations for global brands.
-          </p>
-          <p className="text-accent italic font-serif text-xl md:text-2xl mb-10 animate-fade-up stagger-3">
-            We Make it Happen!
-          </p>
+          <div className="max-w-3xl mx-auto space-y-4">
+            <p className="text-base md:text-lg lg:text-xl text-muted-foreground animate-fade-up stagger-3 leading-relaxed">
+              Experiential marketing, event production, and public relations for global brands.
+            </p>
+            <p className="text-accent italic font-serif text-lg md:text-2xl font-light animate-fade-up stagger-3">
+              We Make it Happen!
+            </p>
+          </div>
 
           {/* CTA Buttons */}
-          <div className="flex flex-col sm:flex-row gap-4 justify-center animate-fade-up stagger-4">
+          <div className="flex flex-col sm:flex-row gap-4 justify-center pt-4 animate-fade-up stagger-4">
             <Button
               asChild
               size="lg"
-              className="bg-accent text-accent-foreground hover:bg-accent/90 font-medium px-8 py-6 text-base"
+              className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold px-10 py-7 text-base rounded-lg transition-all duration-300 hover-lift shadow-lg hover:shadow-xl"
             >
-              <Link href="/contact">Contact Us</Link>
+              <Link href="/contact">Start Your Project</Link>
             </Button>
             <Button
               asChild
               size="lg"
-              variant="outline"
-              className="border-foreground/20 text-foreground hover:bg-foreground/10 font-medium px-8 py-6 text-base"
+              className="border-2 border-accent text-accent hover:bg-accent/5 font-semibold px-10 py-7 text-base rounded-lg transition-all duration-300 hover-lift bg-transparent"
             >
               <Link href="/work">View Our Work</Link>
             </Button>
@@ -67,10 +61,10 @@ export function HeroSection() {
       <div className="absolute bottom-8 left-1/2 -translate-x-1/2 z-10 animate-fade-in stagger-5">
         <a
           href="#stats"
-          className="flex flex-col items-center gap-2 text-muted-foreground hover:text-foreground transition-colors duration-300 group"
+          className="flex flex-col items-center gap-3 text-muted-foreground hover:text-accent transition-colors duration-300 group"
         >
-          <span className="text-xs uppercase tracking-widest">Scroll</span>
-          <ChevronDown className="w-5 h-5 animate-bounce" />
+          <span className="text-xs uppercase tracking-widest font-medium">Scroll</span>
+          <ChevronDown className="w-5 h-5 animate-bounce group-hover:text-accent" />
         </a>
       </div>
     </section>

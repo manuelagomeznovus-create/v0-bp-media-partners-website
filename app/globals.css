@@ -147,6 +147,32 @@
     animation: scale-in 0.5s ease-out forwards;
     opacity: 0;
   }
+
+  .animate-slide-down {
+    animation: slide-down 0.5s ease-out forwards;
+    opacity: 0;
+  }
+
+  .hover-lift {
+    transition: transform 0.3s ease-out, box-shadow 0.3s ease-out;
+  }
+
+  .hover-lift:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+  }
+
+  .glass-effect {
+    @apply bg-background/10 backdrop-blur-xl border border-border/20;
+  }
+
+  .section-spacing {
+    @apply py-20 lg:py-28;
+  }
+
+  .container-padding {
+    @apply px-6 lg:px-12;
+  }
   
   .stagger-1 { animation-delay: 0.1s; }
   .stagger-2 { animation-delay: 0.2s; }
@@ -180,5 +206,16 @@
   to {
     opacity: 1;
     transform: scale(1);
+  }
+}
+
+@keyframes slide-down {
+  from {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
   }
 }

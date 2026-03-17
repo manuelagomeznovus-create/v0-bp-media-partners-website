@@ -53,15 +53,15 @@ export function Navigation() {
           </Link>
 
           {/* Desktop Navigation */}
-          <div className="hidden lg:flex items-center gap-10">
+          <div className="hidden lg:flex items-center gap-12">
             {navItems.map((item) => (
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-sm font-medium text-muted-foreground hover:text-foreground transition-colors duration-300 relative group"
+                className="text-sm font-medium text-muted-foreground hover:text-accent transition-colors duration-300 relative group"
               >
                 {item.label}
-                <span className="absolute -bottom-1 left-0 w-0 h-px bg-accent transition-all duration-300 group-hover:w-full" />
+                <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-gradient-to-r from-accent to-accent/50 transition-all duration-300 group-hover:w-full" />
               </Link>
             ))}
           </div>
@@ -70,7 +70,7 @@ export function Navigation() {
           <div className="hidden lg:block">
             <Button
               asChild
-              className="bg-accent text-accent-foreground hover:bg-accent/90 font-medium px-6"
+              className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold px-8 py-2.5 text-sm rounded-lg transition-all duration-300 hover-lift shadow-md hover:shadow-lg"
             >
               <Link href="/contact">Contact Us</Link>
             </Button>

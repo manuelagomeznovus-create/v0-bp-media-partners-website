@@ -12,20 +12,23 @@ const stats = [
 
 export function StatsSection() {
   return (
-    <section id="stats" className="py-24 lg:py-32 bg-card border-y border-border">
-      <div className="container mx-auto px-6 lg:px-12">
+    <section id="stats" className="section-spacing bg-card relative overflow-hidden border-y border-border">
+      {/* Accent Line */}
+      <div className="absolute top-0 left-0 right-0 h-1 bg-gradient-to-r from-transparent via-accent to-transparent" />
+      
+      <div className="container-padding mx-auto">
         <AnimatedSection>
           <div className="grid grid-cols-2 lg:grid-cols-4 gap-8 lg:gap-12">
             {stats.map((stat, index) => (
-              <div key={index} className="text-center">
-                <div className="font-serif text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-bold text-foreground mb-2">
+              <div key={index} className="text-center group">
+                <div className="font-serif text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-bold text-gradient mb-4 group-hover:scale-105 transition-transform duration-300">
                   <AnimatedCounter
                     end={stat.value}
                     suffix={stat.suffix}
                     duration={2500}
                   />
                 </div>
-                <p className="text-sm md:text-base text-muted-foreground uppercase tracking-wider">
+                <p className="text-xs md:text-sm text-muted-foreground uppercase tracking-[0.2em] font-medium">
                   {stat.label}
                 </p>
               </div>
