@@ -15,7 +15,7 @@ export function HeroSection() {
         <div className="space-y-8 md:space-y-10 lg:space-y-12 text-center">
           {/* Tagline */}
           <p className="text-accent text-xs md:text-sm font-medium uppercase tracking-[0.4em] animate-fade-up stagger-1">
-            Since 2006 • Miami • Latin America • International
+       
           </p>
 
           {/* Main Headline */}
