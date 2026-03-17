@@ -10,7 +10,7 @@ const projects = [
   {
     title: "Samsung S26 Product Launch",
     category: "Technology Event",
-    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop",
+    image: "2026.3.10_BPMedia t_Wellington_Miami_WGP_5511.jpg",
   },
   {
     title: "Luxury Brand Activation",
