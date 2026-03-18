@@ -26,7 +26,7 @@ const team = [
     image: "/images/bryan-pena.jpg",
   },
   {
-    name: "Production Excellence",
+    name: "Jeannine Alvarado",
     role: "Project Manager",
     bio: "Our Project Manager ensures every event detail is perfectly orchestrated, delivering exceptional experiences on time and on budget.",
     image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop",
