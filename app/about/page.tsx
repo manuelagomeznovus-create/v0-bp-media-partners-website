@@ -29,7 +29,7 @@ const team = [
     name: "Jeannine Alvarado",
     role: "Project Manager",
     bio: "Our Project Manager ensures every event detail is perfectly orchestrated, delivering exceptional experiences on time and on budget.",
-    image: "/images/jeannine-alvarado.jpg",
+    image: "/images/JeannineAlvarado-BP.jpg",
   },
   {
     name: "Creative Vision",
