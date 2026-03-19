@@ -10,12 +10,12 @@ const team = [
   {
     name: "Bryan Pena",
     role: "CEO & Founder",
-    image: "https://images.unsplash.com/photo-1560250097-0b93528c311a?q=80&w=1974&auto=format&fit=crop",
+   image: "/images/bryan-pena.jpg",
   },
   {
     name: "Jeannine Alvarado",
     role: "Vice President & Operations Manager",
-    image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?q=80&w=1974&auto=format&fit=crop",
+    image: "/images/JeannineAlvarado-BP.jpg",
   },
   {
     name: "Claudia Alvarado",
