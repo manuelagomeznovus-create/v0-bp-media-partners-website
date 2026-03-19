@@ -22,7 +22,7 @@ const team = [
   {
     name: "Bryan Pena",
     role: "CEO & Founder",
-    bio: "Founder and visionary behind BP Media + Partners since 2006, Bryan leads the company with passion for creating extraordinary experiences.",
+    bio: "Founder and visionary behind BP Media + Partners since 2006, Bryan leads the company with passion, creativity and determination to create extraordinary experiences.",
     image: "/images/bryan-pena.jpg",
   },
   {
