@@ -25,7 +25,7 @@ const team = [
   {
     name: "Manuela Gomez",
     role: "PR & Event Coordinator",
-    image: "/images/manuela-gomez.jpg",
+    image: "/images/manuelagomez.jpg",
   },
   {
     name: "Pablo Delgado",
