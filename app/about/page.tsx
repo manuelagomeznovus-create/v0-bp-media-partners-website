@@ -58,7 +58,7 @@ const team = [
   {
     name: "Hendrick Rojas",
     role: "Event Production Manager",
-    bio: "Oversees technical and production aspects of events, ensuring flawless execution and high-quality results.",
+    bio: "Oversees technical and production aspects of events, ensuring perfect execution and high-quality results.",
     image: "/images/hendrick_socialmedia.jpg”,
   },
   {
