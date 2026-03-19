@@ -172,7 +172,7 @@ export default function AboutPage() {
                 </AnimatedSection>
                 <AnimatedSection delay={300}>
                   <p>
-                    Today, BP Media + Partners stands as a trusted partner for global brands seeking to create meaningful connections through experiential marketing. Our team combines strategic thinking, creative excellence, and flawless production execution to deliver experiences that captivate audiences and drive measurable results. We Make it Happen!
+                    Today, BP Media + Partners stands as a trusted partner for global brands seeking to create meaningful connections through experiential marketing. Our team combines strategic thinking, creative excellence, and flawless production execution to deliver experiences that captivate audiences and drive measurable results. WE MAKE IT HAPPEN!
                   </p>
                 </AnimatedSection>
               </div>
