@@ -41,7 +41,7 @@ const team = [
     name: "Manuela Gomez",
     role: "PR & Event Coordinator",
     bio: "Manages public relations efforts and coordinates events with precision and creativity. Ensures each event aligns with the brand vision and exceeds expectations.",
-    image: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?q=80&w=1974&auto=format&fit=crop",
+    image: "/images/ManuelaGomez.jpg”,
   },
   {
     name: "Pablo Delgado",
