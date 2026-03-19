@@ -102,10 +102,10 @@ export default function AboutPage() {
                   About BP Media + Partners
                 </p>
                 <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight text-balance">
-                  Creating Extraordinary Experiences Since 2006
+                  Creating Extraordinary Experiences For Over 20 Years
                 </h1>
                 <p className="text-muted-foreground text-lg lg:text-xl leading-relaxed">
-                  BP Media + Partners is a Miami-based experiential marketing and event production agency with international operations and a strong network of partners across the Americas.
+                  BP Media + Partners is a Miami-based experiential marketing and event production agency with international operations and a strong network of partners across the Globe.
                 </p>
               </AnimatedSection>
               <AnimatedSection delay={200}>
