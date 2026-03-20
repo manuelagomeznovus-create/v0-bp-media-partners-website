@@ -65,7 +65,7 @@ export function AnimatedCounter({
   }, [isVisible, end, duration])
 
   return (
-    <span ref={ref} className="tabular-nums">
+    <span ref={ref} className="tabular-nums leading-[1.2] inline-block">
       {prefix}
       {count.toLocaleString()}
       {suffix}
