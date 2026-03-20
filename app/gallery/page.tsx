@@ -26,7 +26,7 @@ const galleryItems = [
     location: "Dominican Republic",
     type: "Corporate Event",
     mediaType: "photo" as const,
-    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop",
+    image: "/images/samsung.bpmedia2026.jpg",
     category: "Events",
   },
   {
