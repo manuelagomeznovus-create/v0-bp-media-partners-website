@@ -174,7 +174,7 @@ export default function ServicesPage() {
                     className="bg-accent text-accent-foreground hover:bg-accent/90 font-medium"
                   >
                     <Link href="/contact" className="flex items-center gap-2">
-                      Discuss Your Project
+                      Let’s Discuss Your Project
                       <ArrowRight className="w-4 h-4" />
                     </Link>
                   </Button>
