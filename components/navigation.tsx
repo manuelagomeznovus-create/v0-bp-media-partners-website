@@ -47,7 +47,7 @@ export function Navigation() {
               alt="BP Media + Partners"
               width={180}
               height={60}
-              className="h-10 lg:h-12 w-auto object-contain"
+              className="h-16 lg:h-20 w-auto object-contain"
               priority
             />
           </Link>
