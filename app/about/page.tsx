@@ -65,7 +65,7 @@ const team = [
     name: "Melanie Tillbrook",
     role: "Talent Acquisition Manager",
     bio: "Leads recruitment and talent development, building a strong, skilled, and dynamic team.",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop",
+    image: "/images/melanie.jpg",
   },
 ]
 
