@@ -20,7 +20,7 @@ const team = [
   {
     name: "Claudia Alvarado",
     role: "Digital Marketing Manager",
-    image: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=1976&auto=format&fit=crop",
+    image: "/images/claudia_socialmedia.jpg"
   },
   {
     name: "Manuela Gomez",
@@ -30,7 +30,7 @@ const team = [
   {
     name: "Pablo Delgado",
     role: "Chief Financial Officer",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop",
+    image: "/images/pablofinancial.jpeg",
   },
   {
     name: "Monica Uribe",
@@ -40,12 +40,12 @@ const team = [
   {
     name: "Hendrick Rojas",
     role: "Event Production Manager",
-    image: "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?q=80&w=1970&auto=format&fit=crop",
+    image: "/images/hendrick_socialmedia.jpg"
   },
   {
     name: "Melani Tillbrook",
     role: "Talent Acquisition Manager",
-    image: "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?q=80&w=1974&auto=format&fit=crop",
+    image: "/images/melanie.jpg",
   },
 ]
 
