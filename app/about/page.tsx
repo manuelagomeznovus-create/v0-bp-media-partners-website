@@ -35,7 +35,7 @@ const team = [
     name: "Claudia Alvarado",
     role: "Digital Marketing Manager",
     bio: "Leads digital strategy, including online campaigns, social media, and brand presence. Focused on delivering impactful, engagement-driven marketing solutions.",
-    image: "/images/claudia_socialmedia.jpg”,
+    image: "/images/claudia_socialmedia.jpg"
   },
   {
     name: "Manuela Gomez",
@@ -59,7 +59,7 @@ const team = [
     name: "Hendrick Rojas",
     role: "Event Production Manager",
     bio: "Oversees technical and production aspects of events, ensuring perfect execution and high-quality results.",
-    image: "/images/hendrick_socialmedia.jpg”,
+    image: "/images/hendrick_socialmedia.jpg"
   },
   {
     name: "Melanie Tillbrook",
