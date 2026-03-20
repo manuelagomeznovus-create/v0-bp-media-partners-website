@@ -22,13 +22,13 @@ const categories = [
 const projects = [
   {
     id: 1,
-    title: "Apple Product Launch",
+    title: "Samsung S26 Product Launch",
     category: "Product Launches",
-    client: "Apple Inc.",
-    location: "San Francisco, CA",
-    year: "2024",
-    description: "Global product launch event featuring immersive product demonstrations, keynote presentations, and media experiences for thousands of attendees worldwide.",
-    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop",
+    client: "SAMSUNG",
+    location: "Dominican Republic",
+    year: "2026",
+    description: "Launch of Samsung’s S26 in the Dominican Republic, delivering a powerful brand experience.",
+    image: "/images/samsung.bpmedia2026.jpg",
     featured: true,
   },
   {
