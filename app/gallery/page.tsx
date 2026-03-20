@@ -21,9 +21,9 @@ const categories = [
 const galleryItems = [
   {
     id: 1,
-    title: "Apple Product Launch",
-    description: "Global technology brand event featuring immersive product demonstrations and keynote presentations for thousands of attendees.",
-    location: "San Francisco, CA",
+    title: "Samsung S26 Product Launch",
+    description: "Launch of Samsung’s S26 in the Dominican Republic, delivering a powerful brand experience.",
+    location: "Dominican Republic",
     type: "Corporate Event",
     mediaType: "photo" as const,
     image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop",
