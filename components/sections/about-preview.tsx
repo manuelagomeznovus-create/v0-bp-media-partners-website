@@ -17,11 +17,11 @@ export function AboutPreviewSection() {
               About the Agency
             </p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground mb-6 leading-tight text-balance">
-              Crafting Extraordinary Experiences Since 2006
+              Crafting Extraordinary Experiences For Over 20 Years
             </h2>
             <div className="flex flex-col gap-4 text-muted-foreground leading-relaxed mb-8">
               <p>
-                BP Media + Partners is a Miami-based experiential marketing and event production agency with international operations and a strong network of partners across the Americas.
+                BP Media + Partners is a Miami-based experiential marketing and event production agency with international operations and a strong network of partners across the Globe.
               </p>
               <p>
                 We combine strategic thinking with creative excellence and flawless production execution to create brand experiences that captivate audiences and drive meaningful results.
