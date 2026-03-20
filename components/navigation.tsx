@@ -58,7 +58,7 @@ export function Navigation() {
               <Link
                 key={item.href}
                 href={item.href}
-                className="text-sm font-medium text-muted-foreground hover:text-accent transition-colors duration-300 relative group"
+                className="text-base lg:text-lg font-medium text-muted-foreground hover:text-accent transition-colors duration-300 relative group"
               >
                 {item.label}
                 <span className="absolute -bottom-2 left-0 w-0 h-0.5 bg-gradient-to-r from-accent to-accent/50 transition-all duration-300 group-hover:w-full" />
