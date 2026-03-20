@@ -4,7 +4,7 @@ import Image from "next/image"
 import Link from "next/link"
 import { Button } from "@/components/ui/button"
 import { AnimatedSection } from "@/components/animated-section"
-import { ArrowRight, Linkedin } from "lucide-react"
+import { ArrowRight } from "lucide-react"
 
 const team = [
   {
