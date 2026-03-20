@@ -47,7 +47,7 @@ const team = [
     name: "Pablo Delgado",
     role: "Chief Financial Officer",
     bio: "Responsible for financial strategy, planning, and overall stability. Ensures sustainable growth through sound financial management.",
-    image: "https://images.unsplash.com/photo-1580489944761-15a19d654956?q=80&w=1961&auto=format&fit=crop",
+    image: ""/images/pablofinancial.jpeg",
   },
   {
     name: "Monica Uribe",
