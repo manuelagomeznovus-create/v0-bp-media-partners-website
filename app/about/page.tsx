@@ -23,13 +23,13 @@ const team = [
     name: "Bryan Pena",
     role: "CEO & Founder",
     bio: "Founder and visionary behind BP Media + Partners since 2006, Bryan leads the company with passion, creativity and determination to create extraordinary experiences.",
-    image: "/images/bryan-pena.jpg",
+    image: "/images/bryanbp.jpg",
   },
   {
     name: "Jeannine Alvarado",
     role: "Vice President & Operations Manager",
     bio: "Oversees daily operations and ensures all projects run smoothly and efficiently. Known for strong organizational skills and leadership that enhance team performance and client satisfaction.",
-    image: "/images/JeannineAlvarado-BP.jpg",
+    image: "/images/jeanibp.jpg",
   },
   {
     name: "Claudia Alvarado",
@@ -53,7 +53,7 @@ const team = [
     name: "Monica Uribe",
     role: "Events Staff Manager",
     bio: "Leads and coordinates event staff, ensuring professionalism and excellence in every execution. Plays a key role in delivering seamless event experiences.",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1970&auto=format&fit=crop",
+    image: "/images/laotrabp.jpg",
   },
   {
     name: "Hendrick Rojas",
