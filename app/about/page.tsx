@@ -35,7 +35,8 @@ const team = [
     name: "Claudia Alvarado",
     role: "Digital Marketing Manager",
     bio: "Leads digital strategy, including online campaigns, social media, and brand presence. Focused on delivering impactful, engagement-driven marketing solutions.",
-    image: "/images/claudia_socialmedia.jpg"
+    image: "/images/claudianewbp.jpg"
+
   },
   {
     name: "Manuela Gomez",
