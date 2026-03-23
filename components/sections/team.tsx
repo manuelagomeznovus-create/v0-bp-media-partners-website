@@ -20,7 +20,7 @@ const team = [
   {
     name: "Claudia Alvarado",
     role: "Digital Marketing Manager",
-    image: "/images/claudia_socialmedia.jpg"
+    image: "/images/claudianewbp.jpg"
   },
   {
     name: "Manuela Gomez",
