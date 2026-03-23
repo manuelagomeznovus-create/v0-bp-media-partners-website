@@ -10,12 +10,12 @@ const team = [
   {
     name: "Bryan Pena",
     role: "CEO & Founder",
-   image: "/images/bryan-pena.jpg",
+   image: "/images/bryanbp.jpg",
   },
   {
     name: "Jeannine Alvarado",
     role: "Vice President & Operations Manager",
-    image: "/images/JeannineAlvarado-BP.jpg",
+    image: "/images/jeanibp.jpg",
   },
   {
     name: "Claudia Alvarado",
@@ -35,7 +35,7 @@ const team = [
   {
     name: "Monica Uribe",
     role: "Events Staff Manager",
-    image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?q=80&w=1970&auto=format&fit=crop",
+    image: "/images/laotrabp.jpg",
   },
   {
     name: "Hendrick Rojas",
