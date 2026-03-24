@@ -234,7 +234,7 @@ export default function AboutPage() {
                         src={member.image}
                         alt={member.role}
                         fill
-                        className="object-cover transition-transform duration-700 group-hover:scale-105"
+                        className="object-cover object-top transition-transform duration-700 group-hover:scale-105"
                       />
                       <div className="absolute inset-0 bg-gradient-to-t from-background/80 via-transparent to-transparent" />
                     </div>
