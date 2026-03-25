@@ -39,10 +39,10 @@ export function ClientsSection() {
       className="bg-white/20 border border-white/20 rounded-xl flex items-center justify-center h-28 hover:bg-white/20 transition duration-300 overflow-hidden"
     >
       <img
-        src={client.logo}
-        alt={client.name}
-        className="w-full h-full object-contain p-4 scale-150"
-      />
+  src={client.logo}
+  alt={client.name}
+  className="max-h-12 w-auto object-contain mx-auto"
+/>
     </div>
   ))}
 </div>
