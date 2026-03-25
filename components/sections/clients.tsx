@@ -14,7 +14,7 @@ export function ClientsSection() {
       <div className="grid grid-cols-2 gap-6">
         {clients.map((client) => (
           <div key={client.name}>
-            <Image
+          
               <Image 
                 src={client.logo}
                 alt={client.name}
