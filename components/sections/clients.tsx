@@ -1,24 +1,19 @@
 "use client"
 
 const clients = [
-  { name: "Ferrari", logo: "/definitivosamsung.webp" },
   { name: "Samsung", logo: "/definitivosamsung.webp" },
-  { name: "Apple", logo: "/definitivosamsung.webp" },
-  { name: "Nike", logo: "/definitivosamsung.webp" },
-  { name: "Adidas", logo: "/definitivosamsung.webp" },
-  { name: "Puma", logo: "/definitivosamsung.webp" },
-  { name: "Coca-Cola", logo: "/definitivosamsung.webp" },
-  { name: "Pepsi", logo: "/definitivosamsung.webp" },
-  { name: "Amazon", logo: "/definitivosamsung.webp" },
-  { name: "Google", logo: "/definitivosamsung.webp" },
-  { name: "Microsoft", logo: "/definitivosamsung.webp" },
-  { name: "Netflix", logo: "/definitivosamsung.webp" },
-  { name: "Spotify", logo: "/definitivosamsung.webp" },
-  { name: "Uber", logo: "/definitivosamsung.webp" },
-  { name: "Airbnb", logo: "/definitivosamsung.webp" },
-  { name: "BMW", logo: "/definitivosamsung.webp" },
-  { name: "Mercedes-Benz", logo: "/definitivosamsung.webp" },
-  { name: "Rolex", logo: "/definitivosamsung.webp" },
+  { name: "Range Rover", logo: "/rangerover.png" },
+  { name: "Ferrari", logo: "/ferraridefinitivo.png" },
+  { name: "Porsche", logo: "/porschelogo.png" },
+  { name: "Mercedes-Benz", logo: "/mercedeslogo.png" },
+  { name: "Four Seasons", logo: "/fourlogo.png" },
+  { name: "The Ritz-Carlton", logo: "/theritzlogo.png" },
+  { name: "Mandarin Oriental", logo: "/mandarinlogo.png" },
+  { name: "Bank", logo: "/banklogo.png" },
+  { name: "Cartier", logo: "/cartierlogo.png" },
+  { name: "Barceló", logo: "/barcelo.png" },
+  { name: "Cap Cana", logo: "/capcana.png" },
+  { name: "Universal", logo: "/unilogo.png" },
 ]
 
 export function ClientsSection() {
