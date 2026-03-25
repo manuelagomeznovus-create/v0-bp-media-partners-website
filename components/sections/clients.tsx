@@ -1,6 +1,5 @@
 "use client"
 
-<h1 style={{ color: "red" }}>ESTOy AQUI</h1>
 import Image from "next/image"
 import { AnimatedSection } from "@/components/animated-section"
 
@@ -12,6 +11,7 @@ const clients = [
 export function ClientsSection() {
   return (
     <section id="clients" className="py-24 lg:py-32">
+      <h1 style={{ color: "red" }}>ESTOY AQUI</h1>
       <div className="container mx-auto px-6 lg:px-12">
         {/* Header */}
         <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
