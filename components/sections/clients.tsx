@@ -1,9 +1,10 @@
 "use client"
-import logo from "@/public/test-logo.png"
+
+import Image from "next/image"
 
 const clients = [
-  { name: "Ferrari", logo: logo },
-  { name: "Samsung", logo: logo },
+  { name: "Ferrari", logo: "/test-logo.png" },
+  { name: "Samsung", logo: "/test-logo.png" },
 ]
 
 export function ClientsSection() {
@@ -13,15 +14,17 @@ export function ClientsSection() {
 
       <div className="grid grid-cols-2 gap-6">
         {clients.map((client) => (
-          <div key={client.name}>
-          
-              <Image 
-                src={client.logo}
-                alt={client.name}
-                width={120}
-                height={60}
-                
-/>
+          <div
+            key={client.name}
+            style={{ background: "white", padding: "20px" }}
+          >
+            <Image
+              src={client.logo}
+              alt={client.name}
+              width={120}
+              height={60}
+              unoptimized
+            />
           </div>
         ))}
       </div>
