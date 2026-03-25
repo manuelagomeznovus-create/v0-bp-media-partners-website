@@ -1,5 +1,5 @@
 "use client"
-import Image from "next/image"
+import logo from "@/public/test-logo.png"
 
 const clients = [
   { name: "Ferrari", logo: "/test-logo.png" },
