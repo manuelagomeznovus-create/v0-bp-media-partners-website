@@ -2,8 +2,8 @@
 import logo from "@/public/test-logo.png"
 
 const clients = [
-  { name: "Ferrari", logo: "/test-logo.png" },
-  { name: "Samsung", logo: "/test-logo.png" },
+  { name: "Ferrari", logo: logo },
+  { name: "Samsung", logo: logo },
 ]
 
 export function ClientsSection() {
