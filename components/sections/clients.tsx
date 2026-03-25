@@ -15,11 +15,13 @@ export function ClientsSection() {
         {clients.map((client) => (
           <div key={client.name}>
             <Image
-              src={client.logo}
-              alt={client.name}
-              width={120}
-              height={60}
-            />
+              <Image 
+                src={client.logo}
+                alt={client.name}
+                width={120}
+                height={60}
+                unoptimized
+/>
           </div>
         ))}
       </div>
