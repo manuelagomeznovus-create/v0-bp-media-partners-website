@@ -1,5 +1,6 @@
 "use client"
 
+<h1 style={{ color: "red" }}>ESTOy AQUI</h1>
 import Image from "next/image"
 import { AnimatedSection } from "@/components/animated-section"
 
