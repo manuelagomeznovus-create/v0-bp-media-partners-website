@@ -1,8 +1,28 @@
+"use client"
+import Image from "next/image"
+
+const clients = [
+  { name: "Ferrari", logo: "/test-logo.png" },
+  { name: "Samsung", logo: "/test-logo.png" },
+]
+
 export function ClientsSection() {
   return (
-    <section>
-      <h1>TEST SIMPLE</h1>
-      <img src="/test-logo.png" width="200" />
+    <section className="py-24">
+      <h2>Clients</h2>
+
+      <div className="grid grid-cols-2 gap-6">
+        {clients.map((client) => (
+          <div key={client.name}>
+            <Image
+              src={client.logo}
+              alt={client.name}
+              width={120}
+              height={60}
+            />
+          </div>
+        ))}
+      </div>
     </section>
   )
 }
