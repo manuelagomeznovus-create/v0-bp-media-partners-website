@@ -14,7 +14,8 @@ const clients = [
   { name: "Barceló", logo: "/barcelo.png" },
   { name: "Cap Cana", logo: "/capcana.png" },
   { name: "Universal", logo: "/unilogo.png" },
-  { name: "RumLab", logo: "/rumlab.png" },
+  { name: "RumLab", logo: "/rumlab.png" }, 
+  { name: "CasaCampo", logo: "/casacampo.png" },
 ]
 
 export function ClientsSection() {
