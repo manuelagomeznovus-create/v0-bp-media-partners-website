@@ -45,7 +45,7 @@ const team = [
   {
     name: "Melani Tillbrook",
     role: "Talent Acquisition Manager",
-    image: "/images/melanie.jpg",
+    image: "/images/stefani.jpg",
   },
 ]
 
