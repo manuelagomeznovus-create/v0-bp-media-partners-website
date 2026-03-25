@@ -38,11 +38,11 @@ export function ClientsSection() {
       key={client.name}
       className="bg-white/20 border border-white/20 rounded-xl flex items-center justify-center h-28 hover:bg-white/20 transition duration-300 overflow-hidden"
     >
-      <img
+     <img
   src={client.logo}
   alt={client.name}
-  className="max-h-12 w-auto object-contain mx-auto"
-/>
+  className="h-16 w-auto object-contain mx-auto scale-110"
+ />
     </div>
   ))}
 </div>
