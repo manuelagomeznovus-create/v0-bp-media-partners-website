@@ -5,7 +5,7 @@ import { AnimatedSection } from "@/components/animated-section"
 
 // Placeholder client names - these would be replaced with actual client logos
 const clients = [
-  { name: "Ferrari", logo: "/images/logoferrari.jpg" },
+  { name: "SAMSUNG", logo: "/images/test-logo.png" },
 ]
 
 export function ClientsSection() {
@@ -33,13 +33,7 @@ export function ClientsSection() {
               <div
                 key={client.name}
                 className="group flex items-center justify-center p-8 lg:p-10 bg-card rounded-lg border border-border hover:border-accent/30 transition-all duration-300"
-              >
-                <Image
-  src={client.logo}
-  alt={client.name}
-  width={120}
-  height={60}
-/>
+           <img src="/test-logo.png" width="200" />
               </div>
             ))}
           </div>
