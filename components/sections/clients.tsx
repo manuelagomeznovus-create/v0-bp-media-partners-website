@@ -20,7 +20,7 @@ export function ClientsSection() {
                 alt={client.name}
                 width={120}
                 height={60}
-                unoptimized
+                
 />
           </div>
         ))}
