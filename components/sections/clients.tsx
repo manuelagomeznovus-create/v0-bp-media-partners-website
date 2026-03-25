@@ -41,7 +41,7 @@ export function ClientsSection() {
      <img
   src={client.logo}
   alt={client.name}
-  className="h-25 w-auto object-contain mx-auto"
+  className="h-30 w-auto object-contain mx-auto"
  />
     </div>
   ))}
