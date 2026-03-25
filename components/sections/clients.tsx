@@ -16,6 +16,7 @@ const clients = [
   { name: "Universal", logo: "/unilogo.png" },
   { name: "RumLab", logo: "/rumlab.png" }, 
   { name: "CasaCampo", logo: "/casacampo.png" },
+  { name: "Miamilogo", logo: "/citylogo.png" },
 ]
 
 export function ClientsSection() {
@@ -38,12 +39,12 @@ export function ClientsSection() {
   {clients.map((client) => (
     <div
       key={client.name}
-      className="bg-white/30 border border-white/20 rounded-xl flex items-center justify-center h-28 hover:bg-white/20 transition duration-300 overflow-hidden"
+      className="bg-white/25 border border-white/20 rounded-xl flex items-center justify-center h-28 hover:bg-white/20 transition duration-300 overflow-hidden"
     >
      <img
   src={client.logo}
   alt={client.name}
-  className="h-30 w-auto object-contain mx-auto"
+  className="h-25 w-auto object-contain mx-auto"
  />
     </div>
   ))}
