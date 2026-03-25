@@ -4,7 +4,7 @@ import { AnimatedSection } from "@/components/animated-section"
 
 // Placeholder client names - these would be replaced with actual client logos
 const clients = [
-  "Apple", "Google", "Microsoft", "Amazon",
+  "Ferrari", "Google", "Microsoft", "Amazon",
   "Nike", "Coca-Cola", "Mercedes-Benz", "Louis Vuitton",
   "Samsung", "BMW", "Chanel", "Tesla",
 ]
