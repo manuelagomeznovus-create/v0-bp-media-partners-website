@@ -18,13 +18,7 @@ export function ClientsSection() {
             key={client.name}
             style={{ background: "white", padding: "20px" }}
           >
-            <Image
-              src={client.logo}
-              alt={client.name}
-              width={120}
-              height={60}
-              unoptimized
-            />
+            <img src="/test-logo.png" width="200" />
           </div>
         ))}
       </div>
