@@ -46,7 +46,7 @@ export function AboutPreviewSection() {
           <AnimatedSection delay={200} className="order-1 lg:order-2">
             <div className="relative aspect-[4/3] lg:aspect-[3/4] overflow-hidden rounded-lg">
               <Image
-                src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2012&auto=format&fit=crop"
+                src="/brianmedia.JPG"
                 alt="Event production team at work"
                 fill
                 className="object-cover"
