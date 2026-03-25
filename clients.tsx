@@ -5,7 +5,7 @@ import { AnimatedSection } from "@/components/animated-section"
 
 // Placeholder client names - these would be replaced with actual client logos
 const clients = [
-   { name: "Ferrari", logo: "/images/logoferrari.png" },
+   { name: "Ferrari", logo: "/images/logoferrari.jng" },
 ]
 
 export function ClientsSection() {
