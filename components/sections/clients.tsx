@@ -37,16 +37,16 @@ export function ClientsSection() {
         </div>
 
         {/* Logos */}
-      <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8">
+     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
   {clients.map((client) => (
     <div
       key={client.name}
-      className="bg-white/10 border border-white/20 rounded-2xl p-6 flex items-center justify-center h-32 hover:bg-white/20 transition duration-300"
+      className="bg-white/10 border border-white/20 rounded-xl flex items-center justify-center h-28 hover:bg-white/20 transition duration-300 overflow-hidden"
     >
       <img
         src={client.logo}
         alt={client.name}
-        className="max-h-full max-w-full object-contain"
+        className="w-full h-full object-contain p-4 scale-150"
       />
     </div>
   ))}
