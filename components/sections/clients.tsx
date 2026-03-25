@@ -38,7 +38,7 @@ export function ClientsSection() {
   {clients.map((client) => (
     <div
       key={client.name}
-      className="bg-white/20 border border-white/20 rounded-xl flex items-center justify-center h-28 hover:bg-white/20 transition duration-300 overflow-hidden"
+      className="bg-white/30 border border-white/20 rounded-xl flex items-center justify-center h-28 hover:bg-white/20 transition duration-300 overflow-hidden"
     >
      <img
   src={client.logo}
