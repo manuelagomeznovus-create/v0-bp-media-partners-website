@@ -1,12 +1,11 @@
 "use client"
 
+import Image from "next/image"
 import { AnimatedSection } from "@/components/animated-section"
 
 // Placeholder client names - these would be replaced with actual client logos
 const clients = [
-  "Apple", "Google", "Microsoft", "Amazon",
-  "Nike", "Coca-Cola", "Mercedes-Benz", "Louis Vuitton",
-  "Samsung", "BMW", "Chanel", "Tesla",
+   { name: "Ferrari", logo: "/images/logoferrari.png" },
 ]
 
 export function ClientsSection() {
@@ -31,12 +30,16 @@ export function ClientsSection() {
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 lg:gap-8">
             {clients.map((client) => (
               <div
-                key={client}
+                key={client.name}
                 className="group flex items-center justify-center p-8 lg:p-10 bg-card rounded-lg border border-border hover:border-accent/30 transition-all duration-300"
               >
-                <span className="text-muted-foreground group-hover:text-foreground transition-colors duration-300 font-medium text-lg">
-                  {client}
-                </span>
+                <Image
+                    src={client.logo}
+                  alt={client.name}
+                  width={120}
+                  height={60}
+                  
+               />
               </div>
             ))}
           </div>
