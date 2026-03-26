@@ -16,6 +16,10 @@ const clients = [
   { name: "Universal", logo: "/unilogo.png" },
   { name: "RumLab", logo: "/rumlab.png" }, 
   { name: "CasaCampo", logo: "/casacampo.png" },
+  { name: "La Concha", logo: "/laconcha.webp" },
+  { name: "Havana", logo: "/havana.png" },
+  { name: "David", logo: "/david.webp" },
+  { name: "HISO", logo: "/hiso.png" },
   { name: "Miamilogo", logo: "/citylogo.png" },
 ]
 
