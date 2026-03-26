@@ -25,7 +25,7 @@ const clients = [
 
 export function ClientsSection() {
   return (
-    <section id="clients" className="py-24">
+   <section id="clients" className="py-24 scroll-mt-32">
       <div className="container mx-auto px-6 lg:px-12">
         
         {/* Title */}
