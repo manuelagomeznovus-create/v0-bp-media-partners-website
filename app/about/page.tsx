@@ -115,7 +115,7 @@ export default function AboutPage() {
                     src="/brianmedia.JPG"
                     alt="BP Media + Partners team at work"
                     fill
-                    className="object-contain"
+                    className="object-cover object-bottom"
                   />
                 </div>
               </AnimatedSection>
