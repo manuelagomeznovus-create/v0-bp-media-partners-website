@@ -21,10 +21,8 @@ const footerLinks = {
 }
 
 const socialLinks = [
-  { icon: Instagram, href: "#", label: "Instagram" },
-  { icon: Linkedin, href: "#", label: "LinkedIn" },
-  { icon: Twitter, href: "#", label: "Twitter" },
-  { icon: Facebook, href: "#", label: "Facebook" },
+  { icon: Instagram, href: "https://www.instagram.com/bpmediapartners.us?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==", label: "Instagram" },
+  { icon: Linkedin, href: "https://www.linkedin.com/company/bp-media---partner/", label: "LinkedIn" },
 ]
 
 export function Footer() {
