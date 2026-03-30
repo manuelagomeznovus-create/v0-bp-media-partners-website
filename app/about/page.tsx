@@ -97,8 +97,8 @@ export default function AboutPage() {
         {/* Hero */}
         <section className="pt-32 pb-16 lg:pt-40 lg:pb-24">
           <div className="container mx-auto px-6 lg:px-12">
-            <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
-              <AnimatedSection>
+            <div className="flex justify-center items-center text-center">
+              <AnimatedSection className="max-w-3xl mx-auto">
                 <p className="text-accent text-sm font-medium uppercase tracking-[0.2em] mb-4">
                   About BP Media + Partners
                 </p>
@@ -109,16 +109,7 @@ export default function AboutPage() {
                   BP Media + Partners is a Miami-based experiential marketing and event production agency with international operations and a strong network of partners across the Globe.
                 </p>
               </AnimatedSection>
-              <AnimatedSection delay={200}>
-                <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
-                  <Image
-                    src="/brianmedia.JPG"
-                    alt="BP Media + Partners team at work"
-                    fill
-                    className="object-cover object-[50%_15%]"
-                  />
-                </div>
-              </AnimatedSection>
+             
             </div>
           </div>
         </section>
