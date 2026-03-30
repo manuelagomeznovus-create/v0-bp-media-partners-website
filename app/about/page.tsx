@@ -202,7 +202,7 @@ export default function AboutPage() {
         </section>
 
         {/* Team */}
-        <section className="py-24 lg:py-32">
+        <section className="py-16 lg:py-20">
           <div className="container mx-auto px-6 lg:px-12">
             <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
               <p className="text-accent text-sm font-medium uppercase tracking-[0.2em] mb-4">
