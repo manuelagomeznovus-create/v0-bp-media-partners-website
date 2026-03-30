@@ -173,7 +173,7 @@ export default function AboutPage() {
         </section>
 
         {/* Values */}
-        <section className="py-24 lg:py-22 bg-card">
+        <section className="py-16 lg:py-20 bg-card">
           <div className="container mx-auto px-6 lg:px-12">
             <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
               <p className="text-accent text-sm font-medium uppercase tracking-[0.2em] mb-4">
@@ -202,7 +202,7 @@ export default function AboutPage() {
         </section>
 
         {/* Team */}
-        <section className="py-16 lg:py-20">
+        <section className="py-10 lg:py-12">
           <div className="container mx-auto px-6 lg:px-12">
             <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
               <p className="text-accent text-sm font-medium uppercase tracking-[0.2em] mb-4">
