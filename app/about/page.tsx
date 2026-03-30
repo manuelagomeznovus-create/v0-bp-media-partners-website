@@ -139,7 +139,7 @@ export default function AboutPage() {
         </section>
 
         {/* Story */}
-        <section className="py-24 lg:py-32">
+        <section className="py-12 lg:py-16">
           <div className="container mx-auto px-6 lg:px-12">
             <div className="max-w-3xl mx-auto">
               <AnimatedSection className="text-center mb-8">
