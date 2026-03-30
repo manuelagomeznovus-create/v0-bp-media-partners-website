@@ -141,7 +141,7 @@ export default function AboutPage() {
         {/* Story */}
         <section className="py-24 lg:py-32">
           <div className="container mx-auto px-6 lg:px-12">
-            <div className="max-w-4xl mx-auto">
+            <div className="max-w-3xl mx-auto">
               <AnimatedSection className="text-center mb-16">
                 <p className="text-accent text-sm font-medium uppercase tracking-[0.2em] mb-4">
                   Our Story
@@ -150,8 +150,8 @@ export default function AboutPage() {
                   Two Decades of Excellence
                 </h2>
               </AnimatedSection>
-              
-              <div className="grid gap-8 text-muted-foreground text-lg leading-relaxed">
+              <div className="grid gap-8 text-muted-foreground text-lg leading-relaxed text-center">
+                
                 <AnimatedSection delay={100}>
                   <p>
                     Founded in Miami in 2006, BP Media + Partners began with a vision to transform the way brands connect with their audiences. What started as a boutique event production company has evolved into a full-service experiential marketing agency with operations spanning the Americas and international markets.
