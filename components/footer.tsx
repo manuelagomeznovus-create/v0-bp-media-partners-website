@@ -47,9 +47,10 @@ export function Footer() {
             <div className="flex gap-4">
               {socialLinks.map((social) => (
                 <a
-                  key={social.label}
+                   key={social.label}
                   href={social.href}
-                  aria-label={social.label}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="w-10 h-10 rounded-full bg-secondary flex items-center justify-center text-muted-foreground hover:bg-accent hover:text-accent-foreground transition-all duration-300"
                 >
                   <social.icon size={18} />
