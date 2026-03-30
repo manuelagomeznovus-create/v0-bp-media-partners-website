@@ -175,7 +175,7 @@ export default function AboutPage() {
         {/* Values */}
         <section className="py-10 lg:py-12 bg-card">
           <div className="container mx-auto px-6 lg:px-12">
-            <AnimatedSection className="text-center max-w-3xl mx-auto mb-16">
+            <AnimatedSection className="text-center max-w-3xl mx-auto mb-8">
               <p className="text-accent text-sm font-medium uppercase tracking-[0.2em] mb-4">
                 Our Values
               </p>
