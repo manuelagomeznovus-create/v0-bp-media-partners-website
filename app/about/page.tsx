@@ -115,7 +115,7 @@ export default function AboutPage() {
                     src="/brianmedia.JPG"
                     alt="BP Media + Partners team at work"
                     fill
-                    className="object-cover object-center"
+                    className="object-cover object-[50%_15%]"
                   />
                 </div>
               </AnimatedSection>
