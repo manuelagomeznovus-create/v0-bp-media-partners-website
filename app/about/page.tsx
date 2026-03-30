@@ -112,7 +112,7 @@ export default function AboutPage() {
               <AnimatedSection delay={200}>
                 <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
                   <Image
-                    src="https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2012&auto=format&fit=crop"
+                    src="/brianmedia.JPG"
                     alt="BP Media + Partners team at work"
                     fill
                     className="object-cover"
