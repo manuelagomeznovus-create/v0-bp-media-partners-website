@@ -109,14 +109,25 @@ export default function AboutPage() {
                   BP Media + Partners is a Miami-based experiential marketing and event production agency with international operations and a strong network of partners across the Globe.
                 </p>
               </AnimatedSection>
-              <AnimatedSection delay={200}>
-                <div className="relative aspect-[4/3] overflow-hidden rounded-lg">
-                  <Image
-                    src="/brianmedia.JPG"
-                    alt="BP Media + Partners team at work"
-                    fill
-                    className="object-cover object-[50%_15%]"
-                  />
+             <section className="pt-32 pb-16 lg:pt-40 lg:pb-24">
+  <div className="container mx-auto px-6 lg:px-12">
+    
+    <div className="max-w-4xl mx-auto text-center">
+      <AnimatedSection>
+        
+        <p className="text-accent text-sm font-medium uppercase tracking-[0.2em] mb-6">
+          About BP Media + Partners
+        </p>
+
+        <h1 className="font-serif text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-8 leading-tight text-balance">
+          Creating Extraordinary Experiences For Over 20 Years
+        </h1>
+
+        <p className="text-muted-foreground text-lg lg:text-xl leading-relaxed">
+          BP Media + Partners is a Miami-based experiential marketing and event production agency with international operations and a strong network of partners across the Globe.
+        </p>
+
+      
                 </div>
               </AnimatedSection>
             </div>
