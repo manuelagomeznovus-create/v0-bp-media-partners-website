@@ -278,7 +278,7 @@ export default function ContactPage() {
                         <div>
                           <p className="font-medium text-foreground mb-1">Headquarters</p>
                           <p className="text-muted-foreground text-sm">
-                            Miami, Florida<br />
+                            805 S.W 2nd Ave Suite 1105, Miami, Florida<br />
                             United States
                           </p>
                         </div>
@@ -290,7 +290,7 @@ export default function ContactPage() {
                         <div>
                           <p className="font-medium text-foreground mb-1">Email</p>
                           <a
-                            href="mailto:info@bpmediapartners.com"
+                            href="mailto:bpena@bpmediapartners.com"
                             className="text-muted-foreground text-sm hover:text-accent transition-colors"
                           >
                             info@bpmediapartners.com
@@ -304,10 +304,10 @@ export default function ContactPage() {
                         <div>
                           <p className="font-medium text-foreground mb-1">Phone</p>
                           <a
-                            href="tel:+1234567890"
+                            href="tel:+1 305 720 8535"
                             className="text-muted-foreground text-sm hover:text-accent transition-colors"
                           >
-                            +1 (234) 567-890
+                            +1 305 720 8535
                           </a>
                         </div>
                       </div>
