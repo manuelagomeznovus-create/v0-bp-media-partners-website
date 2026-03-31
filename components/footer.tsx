@@ -106,26 +106,26 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-accent mt-0.5 shrink-0" />
                 <span className="text-sm text-muted-foreground">
-                  Miami, Florida<br />
+                  805 S.W 2nd Ave Suite 1105, Miami, Florida<br />
                   United States
                 </span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-accent shrink-0" />
                 <a
-                  href="mailto:info@bpmediapartners.com"
+                  href="mailto:bpena@bpmediapartners.com"
                   className="text-sm text-muted-foreground hover:text-accent transition-colors duration-300"
                 >
-                  info@bpmediapartners.com
+                  bpena@bpmediapartners.com
                 </a>
               </li>
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-accent shrink-0" />
                 <a
-                  href="tel:+1234567890"
+                  href="tel:+1 305 720 8535"
                   className="text-sm text-muted-foreground hover:text-accent transition-colors duration-300"
                 >
-                  +1 (234) 567-890
+                  +1 305 720 8535
                 </a>
               </li>
             </ul>
