@@ -293,7 +293,7 @@ export default function ContactPage() {
                             href="mailto:bpena@bpmediapartners.com"
                             className="text-muted-foreground text-sm hover:text-accent transition-colors"
                           >
-                            info@bpmediapartners.com
+                            bpena@bpmediapartners.com
                           </a>
                         </div>
                       </div>
