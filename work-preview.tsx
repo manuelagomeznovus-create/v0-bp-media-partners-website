@@ -13,29 +13,29 @@ const projects = [
     image: "/images/samsung.bpmedia2026.jpg",
   },
   {
-    title: "Luxury Brand Activation",
+    title: "Brand Activation",
     category: "Brand Experience",
-    image: "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop",
+    image: "/images/viveahora.jpeg",
   },
   {
-    title: "Global Technology Conference",
+    title: "Launch Event",
     category: "Corporate Event",
-    image: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=2070&auto=format&fit=crop",
+    image: "/images/launchlaunch.jpg",
   },
   {
-    title: "Fashion Week Production",
-    category: "Fashion Event",
-    image: "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?q=80&w=2032&auto=format&fit=crop",
+    title: "Luxury Automotive Exhibition",
+    category: "Corporate Event",
+    image: "/images/cochelanzamiento.jpeg",
   },
   {
-    title: "Cultural Festival Production",
-    category: "Cultural Event",
-    image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop",
+    title: "Fueling New Markets: Energy Drink Expansion Strategy",
+    category: "Experiential Marketing",
+    image: "/images/drink.jpeg",
   },
   {
-    title: "Corporate Leadership Summit",
-    category: "Executive Event",
-    image: "https://images.unsplash.com/photo-1505373877841-8d25f7d46678?q=80&w=2012&auto=format&fit=crop",
+    title: "Executive Aviation Showcase: A Corporate Event",
+    category: "Experiential Marketing",
+    image: "/images/avion.jpeg",
   },
 ]
 
