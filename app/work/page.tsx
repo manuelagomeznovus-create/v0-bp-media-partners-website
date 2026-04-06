@@ -50,7 +50,7 @@ const projects = [
     location: "Dominican Republic" ,
     year: "2023",
     description: "Unveiling Samsung’s new smart product line.",
-    image: "/images/samsungpr.jpeg",
+    image: "/images/launchlaunch.jpg",
     featured: true,
   },
   {
