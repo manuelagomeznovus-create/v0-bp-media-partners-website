@@ -11,10 +11,9 @@ import { cn } from "@/lib/utils"
 
 const categories = [
   "All",
-  "Events",
+  "Product Launches",
   "Brand Activations",
-  "Corporate Conferences",
-  "Festivals",
+  "Corporate Events",
   "Experiential Marketing",
 ]
 
@@ -27,7 +26,7 @@ const galleryItems = [
     type: "Corporate Event",
     mediaType: "photo" as const,
     image: "/images/samsung.bpmedia2026.jpg",
-    category: "Events",
+    category: "Product Launches",
   },
   {
     id: 2,
