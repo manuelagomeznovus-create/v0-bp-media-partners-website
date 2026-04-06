@@ -67,12 +67,12 @@ const projects = [
   {
     id: 5,
     title: "Estylo Magazine Cover Release",
-    category: "Cultural Productions",
-    client: "Festival Productions Inc.",
+    category: "Product Launches",
+    client: "Estylo Magazine",
     location: "Miami, FL",
     year: "2023",
-    description: "Large-scale music festival featuring international artists, multiple stages, and immersive brand experiences for over 50,000 attendees.",
-    image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop",
+    description: "A fashion magazine launch event in Miami, where we handled the event communication to promote and give visibility to the",
+    image: "/images/estylo.jpeg",
     featured: true,
   },
   {
