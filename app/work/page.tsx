@@ -95,7 +95,7 @@ const projects = [
     location: "Miami",
     year: "2022",
     description: "Strategic expansion of an energy drink brand into new markets, driving growth and brand visibility.",
-    image: ""/images/drink.jpeg",
+    image: "/images/drink.jpeg",
     featured: true,
   },
   {
