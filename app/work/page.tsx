@@ -66,13 +66,13 @@ const projects = [
   },
   {
     id: 6,
-    title: "Corporate Leadership Summit",
+    title: "Luxury Automotive Exhibition",
     category: "Corporate Events",
-    client: "Global Financial Institution",
+    client: "",
     location: "Miami, FL",
     year: "2023",
-    description: "Executive summit bringing together C-suite leaders from around the world for strategic discussions and networking.",
-    image: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=2070&auto=format&fit=crop",
+    description: "A luxury car exhibition designed to raise awareness and showcase premium vehicles.",
+    image: "/images/cochelanzamiento.jpeg",
     featured: true,
   },
   {
