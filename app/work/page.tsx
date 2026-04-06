@@ -60,7 +60,7 @@ const projects = [
     client: "Estylo Magazine",
     location: "Miami, FL",
     year: "2023",
-    description: "A fashion magazine launch event in Miami, where we handled the event communication to promote and give visibility to the",
+    description: "A fashion magazine launch event in Miami, where we handled the event communication to promote",
     image: "/images/estylo.jpeg",
     featured: true,
   },
