@@ -83,7 +83,7 @@ const projects = [
     location: "Miami",
     year: "2025",
     description: "A corporate event showcasing executive aviation and premium aircraft",
-    image: "/images/avion.jpeg"
+    image: "/images/avion.jpeg",
 
     featured: true,
   },
