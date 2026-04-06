@@ -84,7 +84,7 @@ const projects = [
     year: "2023",
     description: "Executive summit bringing together C-suite leaders from around the world for strategic discussions and networking.",
     image: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=2070&auto=format&fit=crop",
-    featured: false,
+    featured: true,
   },
   {
     id: 7,
