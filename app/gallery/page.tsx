@@ -71,12 +71,12 @@ const galleryItems = [
   },
   {
     id: 6,
-    title: "Product Experience Center",
-    description: "Interactive showroom design and experiential retail space activation for automotive brand.",
-    location: "Los Angeles, CA",
-    type: "Experiential",
+    title: "Fueling New Markets: Energy Drink Expansion Strategy",
+    description: "Strategic expansion of an energy drink brand into new markets, driving growth and brand visibility.",
+    location: "Miami",
+    type: "Brand Activations",
     mediaType: "photo" as const,
-    image: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=2070&auto=format&fit=crop",
+    image: "/images/drink.jpeg",
     category: "Experiential Marketing",
   },
   {
