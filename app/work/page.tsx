@@ -77,14 +77,15 @@ const projects = [
   },
   {
     id: 7,
-    title: "Automotive Brand Experience",
+    title: "Executive Aviation Showcase: A Corporate Event",
     category: "Experiential Marketing",
-    client: "Luxury Auto Brand",
-    location: "Los Angeles, CA",
-    year: "2023",
-    description: "Interactive brand experience center featuring test drives, product demonstrations, and personalized customer journeys.",
-    image: "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=2070&auto=format&fit=crop",
-    featured: false,
+    client: "",
+    location: "Miami",
+    year: "2025",
+    description: "A corporate event showcasing executive aviation and premium aircraft",
+    image: "/images/cochelanzamiento.jpeg"
+
+    featured: true,
   },
   {
     id: 8,
