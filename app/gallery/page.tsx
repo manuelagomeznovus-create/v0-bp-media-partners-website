@@ -66,7 +66,7 @@ const galleryItems = [
     location: "Miami",
     type: "Corporate Events",
     mediaType: "photo" as const,
-    image: "/images/cochelanzamiento.jpeg,
+    image: "/images/cochelanzamiento.jpeg",
     category: "Corporate Events",
   },
   {
