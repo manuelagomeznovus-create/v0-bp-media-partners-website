@@ -109,39 +109,7 @@ const projects = [
     image: "/images/furniture.jpeg",
     featured: true,
   },
-  {
-    id: 10,
-    title: "Beverage Brand Pop-Up",
-    category: "Experiential Marketing",
-    client: "Major Beverage Brand",
-    location: "Chicago, IL",
-    year: "2023",
-    description: "Immersive pop-up experience featuring product sampling, interactive games, and social media activations.",
-    image: "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?q=80&w=2069&auto=format&fit=crop",
-    featured: false,
-  },
-  {
-    id: 11,
-    title: "Annual Charity Gala",
-    category: "Corporate Events",
-    client: "Non-Profit Foundation",
-    location: "Palm Beach, FL",
-    year: "2022",
-    description: "Prestigious black-tie gala event featuring world-class entertainment, live auctions, and philanthropic celebrations.",
-    image: "https://images.unsplash.com/photo-1519671482749-fd09be7ccebf?q=80&w=2070&auto=format&fit=crop",
-    featured: false,
-  },
-  {
-    id: 12,
-    title: "Caribbean Music Festival",
-    category: "Cultural Productions",
-    client: "Tourism Board",
-    location: "San Juan, PR",
-    year: "2022",
-    description: "Multi-day cultural celebration featuring local and international artists, culinary experiences, and community engagement.",
-    image: "https://images.unsplash.com/photo-1459749411175-04bf5292ceea?q=80&w=2070&auto=format&fit=crop",
-    featured: false,
-  },
+ 
 ]
 
 export default function WorkPage() {
