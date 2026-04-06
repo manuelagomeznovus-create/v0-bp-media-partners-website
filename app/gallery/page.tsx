@@ -31,12 +31,12 @@ const galleryItems = [
   },
   {
     id: 2,
-    title: "Luxury Brand Activation",
-    description: "Immersive brand experience for premium luxury fashion house featuring interactive installations and exclusive VIP experiences.",
+    title:  Brand Activation",
+    description: "Days to Shine: A Brand Activation Experience for Ron Barceló",
     location: "Miami, FL",
     type: "Brand Activation",
     mediaType: "photo" as const,
-    image: "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop",
+    image: "/images/samsungpr.jpeg" ,
     category: "Brand Activations",
   },
   {
