@@ -43,17 +43,6 @@ const projects = [
     featured: true,
   },
   {
-    id: 3,
-    title: "Estylo Magazine Cover Release",
-    category: "Corporate Events",
-    client: "Estylo Magazine",
-    location: "Miami",
-    year: "2024",
-    description: "A fashion magazine launch event in Miami, where we handled the event communication to promote and give visibility to the release.",
-    image: "/images/estylo.jpeg",
-    featured: false,
-  },
-  {
     id: 4,
     title: "Estylo Magazine Cover Release",
     category: "Product Launches",
