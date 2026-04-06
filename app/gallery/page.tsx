@@ -36,7 +36,7 @@ const galleryItems = [
     location: "Miami, FL",
     type: "Brand Activation",
     mediaType: "photo" as const,
-    image: "/images/samsungpr.jpeg" ,
+    image: "/images/viveahora.jpeg",
     category: "Brand Activations",
   },
   {
