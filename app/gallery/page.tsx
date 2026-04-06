@@ -31,7 +31,7 @@ const galleryItems = [
   },
   {
     id: 2,
-    title:  Brand Activation",
+    title:  "Brand Activation",
     description: "Days to Shine: A Brand Activation Experience for Ron Barceló",
     location: "Miami, FL",
     type: "Brand Activation",
