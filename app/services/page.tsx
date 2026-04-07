@@ -20,7 +20,7 @@ const services = [
     title: "Event Production",
     subtitle: "Flawless Execution, Extraordinary Results",
     description: "End-to-end event production for corporate conferences, product launches, galas, and large-scale productions with meticulous attention to detail.",
-    image: "https://images.unsplash.com/photo-1540575467063-178a50c2df87?q=80&w=2070&auto=format&fit=crop",
+    image: "/images/activacion.jpeg"
     features: [
       "Corporate conferences and conventions",
       "Product launches and reveals",
