@@ -39,7 +39,7 @@ const projects = [
     location: "Miami Beach, FL",
     year: "2024",
     description: "Immersive brand experience featuring interactive installations, exclusive VIP experiences, and influencer engagement programs.",
-    image: "https://images.unsplash.com/photo-1511578314322-379afb476865?q=80&w=2069&auto=format&fit=crop",
+    image: "/images/cochelanzamiento.jpeg",
     featured: true,
   },
   {
