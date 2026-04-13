@@ -50,7 +50,7 @@ export function WorkPreviewSection() {
               Featured Work
             </p>
             <h2 className="font-serif text-3xl md:text-4xl lg:text-5xl font-bold text-foreground text-balance">
-              Selected Projects
+              Featured Projects
             </h2>
           </div>
           <Button
