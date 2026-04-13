@@ -106,7 +106,9 @@ export function Footer() {
               <li className="flex items-start gap-3">
                 <MapPin size={18} className="text-accent mt-0.5 shrink-0" />
                 <span className="text-sm text-muted-foreground">
-                  805 S.W 2nd Ave Suite 1105, Miami, Florida<br />
+                 805 S.W 2nd Ave Suite 1105, Miami, Florida
+United States 
+                  <br />
                   United States
                 </span>
               </li>
