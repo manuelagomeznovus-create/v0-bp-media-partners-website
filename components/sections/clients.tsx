@@ -21,6 +21,20 @@ const clients = [
   { name: "David", logo: "/david.webp" },
   { name: "HISO", logo: "/hiso.png" },
   { name: "Miamilogo", logo: "/citylogo.png" },
+  { name: "Client 1", logo: "/loggo1.png" },
+  { name: "Client 2", logo: "/loggo2.png" },
+  { name: "Client 3", logo: "/loggo3.png" },
+  { name: "Client 4", logo: "/loggo 4.png" },
+  { name: "Client 5", logo: "/loggo5.png" },
+  { name: "Client 6", logo: "/loggo6.jpg" },
+  { name: "Client 7", logo: "/loggo7.png" },
+  { name: "Client 8", logo: "/loggo8.png" },
+  { name: "Client 9", logo: "/loggo9.png" },
+  { name: "Client 10", logo: "/loggo10.png" },
+  { name: "Client 11", logo: "/loggo11.png" },
+  { name: "Client 12", logo: "/loggo12.png" },
+  { name: "Client 13", logo: "/loggo13.png" },
+  { name: "Client 14", logo: "/loggo14.png" },
 ]
 
 export function ClientsSection() {
