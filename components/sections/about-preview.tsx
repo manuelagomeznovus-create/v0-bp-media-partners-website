@@ -49,7 +49,7 @@ export function AboutPreviewSection() {
                 src="/fotointro.png"
                 alt="Event production team at work"
                 fill
-                className="object-cover object-bottom"
+                className="object-cover object-top"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
             </div>
