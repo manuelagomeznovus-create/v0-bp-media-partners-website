@@ -25,7 +25,6 @@ const clients = [
   { name: "Client 7", logo: "/loggo7.png" },
   { name: "Client 8", logo: "/loggo8.png" },
   { name: "Client 9", logo: "/loggo9.png" },
-  { name: "Client 10", logo: "/loggo10.png" },
   { name: "Client 11", logo: "/loggo11.png" },
   { name: "Client 12", logo: "/loggo12.png" },
   { name: "Client 13", logo: "/loggo13.png" },
