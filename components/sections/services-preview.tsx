@@ -18,7 +18,7 @@ const services = [
   },
   {
     icon: Users,
-    title: "Public Relations",
+    title: "Integrated Branding",
     description: "Strategic communications and media relations that amplify your brand story and build meaningful connections with your audiences.",
   },
   {
