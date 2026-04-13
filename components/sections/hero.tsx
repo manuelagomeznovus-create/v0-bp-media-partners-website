@@ -32,7 +32,7 @@ export function HeroSection() {
             <p className="text-base md:text-lg lg:text-xl text-muted-foreground animate-fade-up stagger-3 leading-relaxed">
               Experiential marketing, event production, and public relations for global brands.
             </p>
-            <p className="text-accent italic font-serif text-lg md:text-2xl font-light animate-fade-up stagger-3">
+            <p className="text-accent italic font-serif text-3xl md:text-5xl font-light animate-fade-up stagger-3">
               We Make it Happen!
             </p>
           </div>
