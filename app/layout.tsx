@@ -36,7 +36,7 @@ icons: {
     icon: '/favicon.ico',
     apple: '/favicon.ico',
   },
-
+  }       
 export const viewport: Viewport = {
   themeColor: '#0f0f0f',
   width: 'device-width',
