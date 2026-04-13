@@ -44,12 +44,12 @@ export function AboutPreviewSection() {
 
           {/* Image */}
           <AnimatedSection delay={200} className="order-1 lg:order-2">
-          <div className="relative w-full overflow-hidden rounded-lg">
+            <div className="relative w-full h-[600px] lg:h-[750px] overflow-hidden rounded-lg">
               <Image
                 src="/fotointro.png"
                 alt="Event production team at work"
                 fill
-                className="object-contain"
+                className="object-contain object-center"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-background/60 via-transparent to-transparent" />
             </div>
