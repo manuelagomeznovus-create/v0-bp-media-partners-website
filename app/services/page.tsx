@@ -99,7 +99,7 @@ const services = [
     title: "Event Elements & Decor Rentals",
     subtitle: "Premium Event Essentials",
     description: "Premium event furniture and decor rentals to transform any space into an extraordinary venue.",
-    image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2098&auto=format&fit=crop",
+    image: "/images/eventsevents.JPG",
     features: [
       "Luxury furniture collections",
       "Lighting and decor rentals",
