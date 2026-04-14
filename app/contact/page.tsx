@@ -45,8 +45,15 @@ export default function ContactPage() {
     e.preventDefault()
     setIsSubmitting(true)
     
-    // Simulate form submission
-    await new Promise(resolve => setTimeout(resolve, 1500))
+    await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({
+        access_key: "c6e946a7-017b-46f6-abb6-f988213c6bed",
+        to: "bpena@bpmediapartners.com",
+        ...formData,
+      }),
+    })
     
     setIsSubmitting(false)
     setIsSubmitted(true)
