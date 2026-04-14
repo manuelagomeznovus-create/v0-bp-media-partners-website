@@ -68,7 +68,7 @@ const services = [
     title: "Brand Activations",
     subtitle: "Bringing Brands to Life",
     description: "Creative activations that bring brands to life through interactive experiences, pop-ups, and memorable touchpoints.",
-    image: "https://images.unsplash.com/photo-1531058020387-3be344556be6?q=80&w=2070&auto=format&fit=crop",
+    image: "/brandact.jpg", 
     features: [
       "Launch events and unveilings",
       "Brand ambassador programs",
@@ -83,7 +83,7 @@ const services = [
     icon: Music,
     title: "Cultural Productions",
     description: "Festival productions, cultural events, and entertainment experiences that celebrate art, music, and community.",
-    image: "/hapiness.jpg",
+    image: "/hapiness.jpg", 
     features: [
       "Music festivals and concerts",
       "Art exhibitions and installations",
