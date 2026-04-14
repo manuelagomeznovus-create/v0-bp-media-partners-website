@@ -20,7 +20,7 @@ const projects = [
   {
     title: "Talent Staffing Solutions",
     category: "Corporate Event",
-    image: "modelosmodelos.jpg",
+    image: "modelosmodelos1.jpg",
   },
   {
     title: "Experiential Marketing",
