@@ -36,7 +36,7 @@ const services = [
     title: "Experiential Marketing",
     subtitle: "Immersive Brand Experiences",
     description: "Immersive brand experiences that engage audiences, create emotional connections, and generate lasting brand loyalty.",
-    image: "/expmkt.jpg", 
+    image: "/expmkt.jpg",
     features: [
       "Interactive brand installations",
       "Pop-up experiences and activations",
@@ -52,7 +52,7 @@ const services = [
     title: "Public Relations",
     subtitle: "Strategic Communications",
     description: "Strategic communications and media relations that amplify your brand story and build meaningful connections with your audiences.",
-    image: "https://images.unsplash.com/photo-1475721027785-f74eccf877e2?q=80&w=2070&auto=format&fit=crop",
+    image: "/publicrelations.jpg",
     features: [
       "Media relations and press coverage",
       "Influencer partnerships and campaigns",
