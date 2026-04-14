@@ -30,7 +30,7 @@ export function HeroSection() {
           {/* Subheadline */}
           <div className="max-w-3xl mx-auto space-y-4">
             <p className="text-base md:text-lg lg:text-xl text-muted-foreground animate-fade-up stagger-3 leading-relaxed">
-              Experiential marketing, event production, and public relations for global brands.
+              Experiential Marketing, Event Production, Integrated Branding and Public Relations for Your Brands.
             </p>
             <p className="text-accent italic font-serif text-3xl md:text-5xl font-light animate-fade-up stagger-3">
               We Make it Happen!
