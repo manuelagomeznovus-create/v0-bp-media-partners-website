@@ -36,7 +36,7 @@ const services = [
     title: "Experiential Marketing",
     subtitle: "Immersive Brand Experiences",
     description: "Immersive brand experiences that engage audiences, create emotional connections, and generate lasting brand loyalty.",
-    image: "/images/mkt.jpeg",
+    image: "/expmkt.jpg", 
     features: [
       "Interactive brand installations",
       "Pop-up experiences and activations",
