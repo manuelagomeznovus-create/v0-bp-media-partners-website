@@ -37,6 +37,36 @@ const projects = [
     category: "Cultural Events",
     image: "/images/furniture.jpeg",
   },
+   {
+    title: "LED Screens Miami Swim Week",
+    category: "Event Production",
+    image: "/images/ledrental.jpg",
+  },
+  {
+    title: "Catering Service",
+    category: "Event Services",
+    image: "/images/vcatering.jpg",
+  },
+  {
+    title: "Promotional Branding",
+    category: "Brand Experience",
+    image: "/images/cocco.jpg",
+  },
+  {
+    title: "Public Relations",
+    category: "Public Relations",
+    image: "/images/teamteam.jpg",
+  },
+  {
+    title: "Outdoor Festival Production",
+    category: "Cultural Events",
+    image: "/images/barcelo2005.JPG",
+  },
+  {
+    title: "Merchandising Service",
+    category: "Brand Experience",
+    image: "/images/mercha.jpg",
+  },
 ]
 
 export function WorkPreviewSection() {
