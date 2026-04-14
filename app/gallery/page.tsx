@@ -33,7 +33,7 @@ const galleryItems = [
     title:  "Brand Activations",
     description: "Days to Shine: A Brand Activation Experience for Ron Barceló",
     location: "Miami, FL",
-    type: "Brand Activation",
+    type: "Brand Activations",
     mediaType: "photo" as const,
     image: "/images/viveahora.jpeg",
     category: "Brand Activations",
