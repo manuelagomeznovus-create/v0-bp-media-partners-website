@@ -83,7 +83,7 @@ const services = [
     icon: Music,
     title: "Cultural Productions",
     description: "Festival productions, cultural events, and entertainment experiences that celebrate art, music, and community.",
-    image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop",
+    image: "/hapiness.jpg",
     features: [
       "Music festivals and concerts",
       "Art exhibitions and installations",
@@ -99,7 +99,7 @@ const services = [
     title: "Event Elements & Decor Rentals",
     subtitle: "Premium Event Essentials",
     description: "Premium event furniture and decor rentals to transform any space into an extraordinary venue.",
-    image: "/eventsevents.jpg",
+    image: "/eventsevents.jpg", 
     features: [
       "Luxury furniture collections",
       "Lighting and decor rentals",
