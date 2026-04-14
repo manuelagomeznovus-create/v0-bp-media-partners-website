@@ -18,9 +18,9 @@ const projects = [
     image:"/images/viveahora.jpeg",
   },
   {
-    title: "Luxury Automotive Exhibition",
+    title: "Talent Staffing Solutions",
     category: "Corporate Event",
-    image: "/images/cochelanzamiento.jpeg",
+    image: "modelosmodelos.jpg",
   },
   {
     title: "Experiential Marketing",
