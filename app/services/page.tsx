@@ -82,7 +82,6 @@ const services = [
     id: "cultural-productions",
     icon: Music,
     title: "Cultural Productions",
-    subtitle: "Celebrating Art & Community",
     description: "Festival productions, cultural events, and entertainment experiences that celebrate art, music, and community.",
     image: "https://images.unsplash.com/photo-1492684223066-81342ee5ff30?q=80&w=2070&auto=format&fit=crop",
     features: [
