@@ -33,8 +33,8 @@ const projects = [
     image: "/images/estylo.jpeg",
   },
   {
-    title: "Energy Drink Expansion Strategy",
-    category: "Expansion Strategy",
+    title: "Dominican Republic Trade Show",
+    category: "Cultural Events",
     image: "/images/furniture.jpeg",
   },
 ]
