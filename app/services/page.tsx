@@ -97,7 +97,7 @@ const services = [
   {
     id: "event-rentals",
     icon: Sofa,
-    title: "Event Furniture & Rentals",
+    title: "Event Elements & Decor Rentals",
     subtitle: "Premium Event Essentials",
     description: "Premium event furniture and decor rentals to transform any space into an extraordinary venue.",
     image: "https://images.unsplash.com/photo-1519167758481-83f550bb49b3?q=80&w=2098&auto=format&fit=crop",
