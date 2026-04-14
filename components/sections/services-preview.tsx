@@ -33,7 +33,7 @@ const services = [
   },
   {
     icon: Sofa,
-    title: "Event Furniture & Rentals",
+    title: "Event Elements & Decor Rentals",
     description: "Premium event furniture and decor rentals to transform any space into an extraordinary venue.",
   },
 ]
