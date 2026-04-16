@@ -43,7 +43,7 @@ const projects = [
     image: "/ledrental.jpg",
   },
   {
-    title: "Catering Service",
+    title: "Catering Services",
     category: "Event Services",
     image: "/cateringcatering.jpg",
   },
