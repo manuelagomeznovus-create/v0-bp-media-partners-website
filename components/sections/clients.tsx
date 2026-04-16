@@ -14,8 +14,6 @@ const clients = [
   { name: "RumLab", logo: "/rumlab.png" }, 
   { name: "CasaCampo", logo: "/casacampo.png" },
   { name: "La Concha", logo: "/laconcha.webp" },
-  { name: "David", logo: "/david.webp" },
-  { name: "HISO", logo: "/hiso.png" },
   { name: "Miamilogo", logo: "/citylogo.png" },
   { name: "Client 1", logo: "/loggo1.png" },
   { name: "Client 2", logo: "/loggo2.png" },
