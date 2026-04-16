@@ -27,7 +27,8 @@ const clients = [
   { name: "Client 13", logo: "/citycity.png" }, 
   { name: "Client 12", logo: "/manu1.png" },
   { name: "Client 13", logo: "/manu2.png" },
-  { name: "Client 13", logo: "/manu3.png" }, 
+  { name: "Client 13", logo: "/manu3.png" },
+  { name: "Client 13", logo: "/fashfash.png" }, 
 ]
 
 export function ClientsSection() {
