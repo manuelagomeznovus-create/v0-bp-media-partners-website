@@ -298,7 +298,7 @@ export default function ContactPage() {
   <div>
     <p className="font-medium text-foreground mb-2 text-lg">Email</p>
     
-      href="mailto:bpena@bpmediapartners.com"
+      <a href="mailto:bpena@bpmediapartners.com"
       className="text-muted-foreground text-base hover:text-accent transition-colors"
     >
       bpena@bpmediapartners.com
@@ -312,7 +312,7 @@ export default function ContactPage() {
   <div>
     <p className="font-medium text-foreground mb-2 text-lg">Phone</p>
     
-      href="tel:+1 305 720 8535"
+      <a href="tel:+1 305 720 8535"
       className="text-muted-foreground text-base hover:text-accent transition-colors"
     >
       +1 305 720 8535
