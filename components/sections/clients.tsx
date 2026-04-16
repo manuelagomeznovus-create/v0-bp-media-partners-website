@@ -14,7 +14,6 @@ const clients = [
   { name: "RumLab", logo: "/rumlab.png" }, 
   { name: "CasaCampo", logo: "/casacampo.png" },
   { name: "La Concha", logo: "/laconcha.webp" },
-  { name: "Miamilogo", logo: "/citylogo.png" },
   { name: "Client 1", logo: "/loggo1.png" },
   { name: "Client 2", logo: "/loggo2.png" },
   { name: "Client 4", logo: "/loggo 4.png" },
@@ -26,6 +25,9 @@ const clients = [
   { name: "Client 12", logo: "/loggo12.png" },
   { name: "Client 13", logo: "/loggo13.png" },
   { name: "Client 13", logo: "/citycity.png" }, 
+  { name: "Client 12", logo: "/manu1.png" },
+  { name: "Client 13", logo: "/manu2.png" },
+  { name: "Client 13", logo: "/manu3.png" }, 
 ]
 
 export function ClientsSection() {
