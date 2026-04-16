@@ -1,7 +1,6 @@
 "use client"
 
 const clients = [
-  { name: "Samsung", logo: "/definitivosamsung.webp" },
   { name: "Range Rover", logo: "/rangerover.png" },
   { name: "Ferrari", logo: "/ferraridefinitivo.png" },
   { name: "Porsche", logo: "/porschelogo.png" },
