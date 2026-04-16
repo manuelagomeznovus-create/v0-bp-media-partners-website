@@ -21,12 +21,12 @@ const eventTypes = [
 ]
 
 const budgetRanges = [
-  "Under $50,000",
+  "Under $5,000",
+  "$10,000 - $20,000",
+  "$30,000 - $40,000",
   "$50,000 - $100,000",
-  "$100,000 - $250,000",
-  "$250,000 - $500,000",
-  "$500,000 - $1M",
-  "$1M+",
+
+
 ]
 
 export default function ContactPage() {
@@ -291,34 +291,34 @@ export default function ContactPage() {
                        </p>
                      </div>
                     </div>
-                      <div className="flex items-start gap-4">
-                        <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
-                          <Mail className="w-5 h-5 text-accent" />
-                        </div>
-                        <div>
-                          <p className="font-medium text-foreground mb-1">Email</p>
-                          <a
-                            href="mailto:bpena@bpmediapartners.com"
-                            className="text-muted-foreground text-sm hover:text-accent transition-colors"
-                          >
-                            bpena@bpmediapartners.com
-                          </a>
-                        </div>
-                      </div>
-                      <div className="flex items-start gap-4">
-                        <div className="w-10 h-10 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
-                          <Phone className="w-5 h-5 text-accent" />
-                        </div>
-                        <div>
-                          <p className="font-medium text-foreground mb-1">Phone</p>
-                          <a
-                            href="tel:+1 305 720 8535"
-                            className="text-muted-foreground text-sm hover:text-accent transition-colors"
-                          >
-                            +1 305 720 8535
-                          </a>
-                        </div>
-                      </div>
+                      <div className="flex items-start gap-6">
+  <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
+    <Mail className="w-6 h-6 text-accent" />
+  </div>
+  <div>
+    <p className="font-medium text-foreground mb-2 text-lg">Email</p>
+    
+      href="mailto:bpena@bpmediapartners.com"
+      className="text-muted-foreground text-base hover:text-accent transition-colors"
+    >
+      bpena@bpmediapartners.com
+    </a>
+  </div>
+</div>
+<div className="flex items-start gap-6">
+  <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
+    <Phone className="w-6 h-6 text-accent" />
+  </div>
+  <div>
+    <p className="font-medium text-foreground mb-2 text-lg">Phone</p>
+    
+      href="tel:+1 305 720 8535"
+      className="text-muted-foreground text-base hover:text-accent transition-colors"
+    >
+      +1 305 720 8535
+    </a>
+  </div>
+</div>
                     </div>
                   </div>
 
