@@ -80,7 +80,7 @@ const galleryItems = [
   },
   {
     id: 7,
-    title: "Executive Aviation Showcase: A Corporate Event",
+    title: "Executive Aviation Showcase",
     description: "A corporate event showcasing executive aviation and premium aircraft",
     location: "Miami",
     type: "Experiential Marketing",
@@ -90,7 +90,7 @@ const galleryItems = [
   },
   {
     id: 8,
-    title: "Premium custom event furniture",
+    title: "Premium Red Carpet Events",
     description: "Furniture and event branding by BP Media at Taste Paradise, Faena Miami Beach.",
     location: "Miami Beach",
     type: "Corporate Events",
