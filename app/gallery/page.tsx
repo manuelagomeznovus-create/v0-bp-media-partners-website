@@ -95,7 +95,7 @@ const galleryItems = [
     location: "Miami Beach",
     type: "Corporate Events",
     mediaType: "photo" as const,
-    image: "/images/furniture.jpeg", maluca.jpg
+    image: "/images/furniture.jpeg",
     category: "Corporate Events",
   },
   {
