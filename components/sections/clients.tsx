@@ -5,7 +5,7 @@ const clients = [
   { name: "Ferrari", logo: "/ferraridefinitivo.png" },
   { name: "Porsche", logo: "/porschelogo.png" },
   { name: "Mercedes-Benz", logo: "/mercedeslogo.png" },
-  { name: "The Ritz-Carlton", logo: "/theritzlogo.png" },
+  { name: "The Ritz-Carlton", logo: "/ritzlogo2004.png" },
   { name: "Mandarin Oriental", logo: "/mandarinlogo.png" },
   { name: "Bank", logo: "/banklogo.png" },
   { name: "Cartier", logo: "/cartierlogo.png" },
