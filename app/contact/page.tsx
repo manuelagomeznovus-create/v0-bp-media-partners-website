@@ -291,7 +291,7 @@ export default function ContactPage() {
                        </p>
                      </div>
                     </div>
-                      <div className="flex items-start gap-6">
+                    <div className="flex items-start gap-6">
   <div className="w-12 h-12 rounded-full bg-accent/10 flex items-center justify-center shrink-0">
     <Mail className="w-6 h-6 text-accent" />
   </div>
