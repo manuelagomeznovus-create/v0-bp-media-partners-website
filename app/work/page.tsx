@@ -100,7 +100,7 @@ const projects = [
   },
   {
     id: 9,
-    title: "Premium custom event furniture",
+    title: "Premium Red Carpet Events",
     category: "Corporate Events",
     client: "",
     location: "Dominican Republic",
