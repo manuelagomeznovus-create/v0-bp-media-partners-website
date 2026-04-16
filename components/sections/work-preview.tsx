@@ -45,7 +45,7 @@ const projects = [
   {
     title: "Catering Service",
     category: "Event Services",
-    image: "/vcatering.jpg",
+    image: "/cateringcatering.jpg",
   },
   {
     title: "Promotional Branding",
