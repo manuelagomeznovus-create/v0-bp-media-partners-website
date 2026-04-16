@@ -38,7 +38,7 @@ const projects = [
     image: "/images/furniture.jpeg",
   },
   {
-    title: "LED Screens Miami Swim Week",
+    title: "LED Screen Rentals",
     category: "Event Production",
     image: "/ledrental.jpg",
   },
