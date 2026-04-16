@@ -33,7 +33,7 @@ const projects = [
   },
   {
     id: 2,
-    title: "Brand Activation",
+    title: "Brand Activations",
     category: "Brand Activations",
     client: "Premium Fashion House",
     location: "Miami Beach, FL",
