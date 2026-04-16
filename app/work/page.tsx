@@ -77,7 +77,7 @@ const projects = [
   },
   {
     id: 7,
-    title: "Executive Aviation Showcase: A Corporate Event",
+    title: "Executive Aviation Showcase",
     category: "Experiential Marketing",
     client: "",
     location: "Miami",
