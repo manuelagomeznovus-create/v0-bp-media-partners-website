@@ -285,7 +285,7 @@ export default function ContactPage() {
                         <div>
                           <p className="font-medium text-foreground mb-1">Headquarters</p>
                           <p className="text-muted-foreground text-sm">
-                            805 S.W 2nd Ave Suite 1105, Miami, Florida<br />
+                            850 S.W 2nd Ave Suite 1105, Miami, Florida<br />
                             United States
                           </p>
                         </div>
