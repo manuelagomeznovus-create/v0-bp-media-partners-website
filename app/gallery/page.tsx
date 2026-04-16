@@ -95,7 +95,17 @@ const galleryItems = [
     location: "Miami Beach",
     type: "Corporate Events",
     mediaType: "photo" as const,
-    image: "/images/furniture.jpeg",
+    image: "/images/furniture.jpeg", maluca.jpg
+    category: "Corporate Events",
+  },
+  {
+    id: 9,
+    title: "Event Management Services",
+    description: "Rum Festival Activaction Miami Rum Congress.",
+    location: "Miami Beach",
+    type: "Experiential Marketing",
+    mediaType: "photo" as const,
+    image: "/images/maluca.jpg", 
     category: "Corporate Events",
   },
 ]
