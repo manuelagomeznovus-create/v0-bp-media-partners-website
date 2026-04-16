@@ -28,8 +28,8 @@ const projects = [
     image: "/images/avion.jpeg",
   },
   {
-    title: "Product Launch",
-    category: "Product Launch",
+    title: "Product Launches",
+    category: "Product Launches",
     image: "/images/estylo.jpeg",
   },
   {
