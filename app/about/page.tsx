@@ -57,12 +57,6 @@ const team = [
     image: "/images/laotrabp.jpg",
   },
   {
-    name: "Hendrick Rojas",
-    role: "Event Production Manager",
-    bio: "Oversees technical and production aspects of events, ensuring perfect execution and high-quality results.",
-    image: "/images/hendrick_socialmedia.jpg"
-  },
-  {
     name: "Melanie Tillbrook",
     role: "Talent Acquisition Manager",
     bio: "Leads recruitment and talent development, building a strong, skilled, and dynamic team.",
