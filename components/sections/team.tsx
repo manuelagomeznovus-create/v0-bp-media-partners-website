@@ -38,11 +38,6 @@ const team = [
     image: "/images/laotrabp.jpg",
   },
   {
-    name: "Hendrick Rojas",
-    role: "Event Production Manager",
-    image: "/images/hendrick_socialmedia.jpg"
-  },
-  {
     name: "Melani Tillbrook",
     role: "Talent Acquisition Manager",
     image: "/images/stefani.jpg",
