@@ -155,17 +155,15 @@ export function GalleryPreviewSection() {
         </AnimatedSection>
 
         {/* Masonry Grid */}
-        <div className="grid grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-6">
+        <div className="grid grid-cols-2 lg:grid-cols-4 gap-6 lg:gap-8">
           {galleryItems.map((item, index) => (
             <AnimatedSection
               key={item.id}
               delay={index * 100}
-              className={index === 0 || index === 5 ? "row-span-2" : ""}
             >
               <button
                 onClick={() => openModal(item, index)}
-                className="group relative w-full h-full min-h-[200px] overflow-hidden rounded-xl block transition-all duration-300 hover-lift"
-                style={{ aspectRatio: index === 0 || index === 5 ? "3/4" : "4/3" }}
+                className="group relative w-full aspect-square overflow-hidden rounded-xl block transition-all duration-300 hover-lift"
               >
                 <Image
                   src={item.image}
